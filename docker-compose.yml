@@ -1,0 +1,15 @@
+version: '3'
+services:
+  mongodb:
+    image: mongo
+    container_name: ferrara-mongodb
+    networks:
+      - development-network
+    ports:
+      - '27017:27017'
+    volumes:
+      - ./containers/mongo:/data/db
+
+networks:
+  development-network:
+    driver: bridge
