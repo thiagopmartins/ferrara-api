@@ -25,5 +25,5 @@
       "@middlewares/*": ["middlewares/*"]
     }
   },
-  "include": ["src", "__tests__"]
+  "include": ["src"]
 }

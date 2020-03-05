@@ -3,6 +3,8 @@ import express from 'express';
 import mongoose from 'mongoose';
 import cors from 'cors';
 
+import 'module-alias/register';
+
 import routes from './routes';
 
 class App {
