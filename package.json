@@ -9,8 +9,9 @@
     "dev": "nodemon src/server.ts",
     "test": "cross-env DEBUG=jest-mongodb:* NODE_ENV=test jest --forceExit --detectOpenHandles",
     "prebuild": "rimraf dist",
-    "build-ts": "tsc",
-    "start": "node dist/server.js"
+    "build": "tsc",
+    "start": "node dist/server.js",
+    "postinstall": "yarn build"
   },
   "_moduleAliases": {
     "@services": "dist/services",
