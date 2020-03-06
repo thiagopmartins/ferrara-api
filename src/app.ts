@@ -21,8 +21,9 @@ class App {
 
   private middlewares(): void {
     this.express.use(express.json());
-    this.express.use(cors({origin: 'https://ferrara-front.herokuapp.com'}));
-  }
+    this.express.use(cors());
+    this.express.options('*', cors());
+  } 
 
   private database(): void {
     mongoose.connect(`${process.env.MONGO_URL}`, {
