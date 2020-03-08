@@ -3,6 +3,8 @@ import express from 'express';
 import mongoose from 'mongoose';
 import cors from 'cors';
 
+import 'module-alias/register';
+
 import routes from './routes';
 
 class App {
@@ -21,7 +23,7 @@ class App {
     this.express.use(express.json());
     this.express.use(cors());
     this.express.options('*', cors());
-  } 
+  }
 
   private database(): void {
     mongoose.connect(`${process.env.MONGO_URL}`, {
