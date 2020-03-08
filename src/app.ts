@@ -3,8 +3,6 @@ import express from 'express';
 import mongoose from 'mongoose';
 import cors from 'cors';
 
-import 'module-alias/register';
-
 import routes from './routes';
 
 class App {
@@ -27,7 +25,7 @@ class App {
   private database(): void {
     mongoose.connect(`${process.env.MONGO_URL}`, {
       useNewUrlParser: true,
-      useUnifiedTopology: false,
+      useUnifiedTopology: true,
       useCreateIndex: true,
       useFindAndModify: false,
     });
