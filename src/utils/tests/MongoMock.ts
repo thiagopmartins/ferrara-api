@@ -1,6 +1,9 @@
 import mongoose, { Mongoose } from 'mongoose';
 import dotenv from 'dotenv';
 
+import config from '@config/auth';
+import jwt from 'jsonwebtoken';
+
 class MongoMock {
   private database: Mongoose;
 
@@ -21,8 +24,20 @@ class MongoMock {
     });
   }
 
-  disconnect(): Promise<void> {
-    return this.database.connection.close();
+  async disconnect(): Promise<void> {
+    return this.database.disconnect();
+  }
+
+  async createToken(permission: number): Promise<string> {
+    const jwtPayload = {
+      id: '1',
+      name: 'usuario_qualquer',
+      permission,
+    };
+
+    const token: string = jwt.sign({ jwtPayload }, config.secret);
+
+    return token;
   }
 }
 

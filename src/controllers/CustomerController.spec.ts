@@ -1,24 +1,10 @@
 import request from 'supertest';
-import jwt from 'jsonwebtoken';
 
 import MongoMock from '@utils/tests/MongoMock';
 import { PermissionEnum } from '@utils/enums/PermissionEnum';
 import CustomerSchema from '@schemas/CustomerSchema';
 import { Customer } from '@interfaces/Customer';
-import config from '@config/auth';
 import app from '../app';
-
-function createToken(permission: number): string {
-  const jwtPayload = {
-    id: '1',
-    name: 'usuario_qualquer',
-    permission,
-  };
-
-  const token: string = jwt.sign({ jwtPayload }, config.secret);
-
-  return token;
-}
 
 describe('Customer tests', () => {
   let customer: Customer;
@@ -36,7 +22,7 @@ describe('Customer tests', () => {
 
   beforeEach(async () => {
     await CustomerSchema.deleteMany({});
-    token = createToken(PermissionEnum.owner);
+    token = await MongoMock.createToken(PermissionEnum.owner);
     customer = {
       name: 'thiago',
       phone: '499850473724212',
@@ -170,7 +156,7 @@ describe('Customer tests', () => {
   });
 
   it('Não deve deletar um cliente, caso usuário não tenha permissão', async () => {
-    token = createToken(PermissionEnum.employee);
+    token = await MongoMock.createToken(PermissionEnum.employee);
 
     await CustomerSchema.create(customer);
 

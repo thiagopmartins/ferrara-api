@@ -7,7 +7,7 @@
   "license": "MIT",
   "scripts": {
     "dev": "nodemon src/server.ts",
-    "test": "cross-env DEBUG=jest-mongodb:* NODE_ENV=test jest --forceExit --detectOpenHandles",
+    "test": "cross-env DEBUG=jest-mongodb:* NODE_ENV=test jest",
     "prebuild": "rimraf dist",
     "build": "tsc",
     "start": "node dist/server.js",
