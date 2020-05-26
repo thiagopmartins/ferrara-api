@@ -1,3 +1,4 @@
+/* eslint-disable import/no-extraneous-dependencies */
 import request from 'supertest';
 
 import MongoMock from '@utils/tests/MongoMock';
