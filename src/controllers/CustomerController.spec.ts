@@ -207,7 +207,7 @@ describe('Customer tests', () => {
       .send(customerUpdate);
 
     expect(response.status).toBe(200);
-    expect(response.body.name).toBe(customerUpdate.name.toLowerCase());
+    expect(response.body.name).toBe(customerUpdate.name);
     expect(response.body.phone).toBe(customerUpdate.phone);
     expect(response.body.deliveryTax).toBe(customerUpdate.deliveryTax);
     expect(response.body.address).toBe(customerUpdate.address);

@@ -228,7 +228,7 @@ describe('Create Product', () => {
     const { name, description, price, category } = response.body;
 
     expect(response.status).toBe(200);
-    expect(name).toBe(productUpdate.name.toLowerCase());
+    expect(name).toBe(productUpdate.name);
     expect(CategoryEnum[category]).toBe(CategoryEnum[productUpdate.category]);
     expect(description).toBe(productUpdate.description);
     expect(price).toBe(productUpdate.price);

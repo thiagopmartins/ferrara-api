@@ -8,7 +8,6 @@ const CustomerSchema = new Schema(
   {
     name: {
       type: String,
-      lowercase: true,
       trim: true,
       required: true,
     },
