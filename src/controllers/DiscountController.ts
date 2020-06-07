@@ -1,5 +1,7 @@
 import { Response } from 'express';
 import * as yup from 'yup';
+import moment from 'moment';
+import 'moment/locale/pt-br';
 
 import { RequestCustom } from '@interfaces/RequestCustom';
 import DiscountSchema from '@schemas/DiscountSchema';
@@ -27,17 +29,16 @@ class DiscountController {
         });
       }
 
-      const { name, expireDate, value, type }: Discount = req.body;
+      const { name, expireDate, value, type, partner }: Discount = req.body;
 
       const expireDateFormatted = new Date(expireDate);
-
-      console.log(expireDateFormatted);
 
       const result = await DiscountSchema.create({
         name,
         expireDate: expireDateFormatted,
         value,
         type,
+        partner,
       });
 
       return res.status(200).json(result);
@@ -52,13 +53,13 @@ class DiscountController {
   }
 
   public async index(req: RequestCustom, res: Response): Promise<Response> {
-    const date: Date = new Date();
-    const discounts = await DiscountSchema.find({
-      expireDate: {
-        $gte: new Date(date.getFullYear(), date.getMonth(), date.getDay() - 1),
-      },
-    });
-    return res.json(discounts);
+    const discounts = await DiscountSchema.find({});
+    return res.json(
+      discounts.filter(
+        m => moment(Date.now()).isSameOrBefore(m.expireDate),
+        'day',
+      ),
+    );
   }
 
   public async show(req: RequestCustom, res: Response): Promise<Response> {

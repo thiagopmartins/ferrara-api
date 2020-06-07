@@ -30,6 +30,7 @@ describe('Create Discount', () => {
       expireDate: new Date(),
       value: 563.5,
       type: DiscountTypeEnum.percentage,
+      partner: 'parceiro',
     };
   });
 
@@ -39,12 +40,13 @@ describe('Create Discount', () => {
       .set('authorization', `bearer ${token}`)
       .send(discount);
 
-    const { name, expireDate, value, type } = response.body;
+    const { name, expireDate, value, type, partner } = response.body;
     expect(response.status).toBe(200);
     expect(name).toBe(discount.name);
     expect(expireDate).toBe(expireDate);
     expect(value).toBe(value);
     expect(type).toBe(type);
+    expect(partner).toBe(partner);
   });
 
   it('Não deve cadastrar um Cupom, quando não for enviado o campo name', async () => {
@@ -232,16 +234,18 @@ describe('Create Discount', () => {
       type: DiscountTypeEnum.value,
       value: 100.5,
       expireDate: new Date(),
+      partner: 'novo parceiro',
     };
     const response = await request(app)
       .put('/discount')
       .set('authorization', `bearer ${token}`)
       .send(discountUpdate);
 
-    const { name, expireDate, type, value } = response.body;
+    const { name, expireDate, type, value, partner } = response.body;
 
     expect(response.status).toBe(200);
     expect(name).toBe(discountUpdate.name);
+    expect(partner).toBe(discountUpdate.partner);
     expect(DiscountTypeEnum[type]).toBe(DiscountTypeEnum[discountUpdate.type]);
     expect(value).toBe(discountUpdate.value);
     expect(expireDate).toBe(discountUpdate.expireDate.toISOString());

@@ -20,6 +20,9 @@ const DiscountSchema = new Schema(
     type: {
       type: String,
     },
+    partner: {
+      type: String,
+    },
   },
   {
     timestamps: true,
