@@ -6,7 +6,7 @@ type OrderType = Order & Document;
 
 const OrderSchema = new Schema(
   {
-    client: {
+    customer: {
       type: mongoose.Schema.Types.ObjectId,
       ref: 'Customer'
     },
