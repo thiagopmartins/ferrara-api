@@ -6,6 +6,7 @@ import cors from 'cors';
 import 'module-alias/register';
 
 import routes from './routes';
+import OrderSchema from '@schemas/OrderSchema';
 
 class App {
   public express: express.Application;
@@ -32,6 +33,7 @@ class App {
       useCreateIndex: true,
       useFindAndModify: false,
     });
+    OrderSchema.create();
   }
 
   private routes(): void {
