@@ -5,8 +5,8 @@ import cors from 'cors';
 
 import 'module-alias/register';
 
-import routes from './routes';
 import OrderSchema from '@schemas/OrderSchema';
+import routes from './routes';
 
 class App {
   public express: express.Application;
