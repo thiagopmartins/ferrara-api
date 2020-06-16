@@ -70,7 +70,7 @@ class CustomerController {
   }
 
   public async index(req: RequestCustom, res: Response): Promise<Response> {
-    const customers = await CustomerSchema.find({}, 'name phone');
+    const customers = await CustomerSchema.find();
     return res.json(customers);
   }
 
