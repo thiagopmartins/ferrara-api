@@ -6,6 +6,7 @@ import ProductController from '@controllers/ProductController';
 import DiscountController from '@controllers/DiscountController';
 
 import Authentication from '@middlewares/Authentication';
+import OrderController from '@controllers/OrderController';
 
 const routes = Router();
 
@@ -28,5 +29,7 @@ routes.get('/discount', Authentication, DiscountController.index);
 routes.get('/discount/:id', Authentication, DiscountController.show);
 routes.delete('/discount/:id', Authentication, DiscountController.delete);
 routes.put('/discount', Authentication, DiscountController.update);
+
+routes.post('/order', Authentication, OrderController.store);
 
 export default routes;
