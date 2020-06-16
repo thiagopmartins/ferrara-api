@@ -10,12 +10,12 @@ import CustomerSchema from '@schemas/CustomerSchema';
 class OrderController {
   public async store(req: RequestCustom, res: Response): Promise<Response> {
     const { customer, products, price } = req.body;
-    
+
     const result = await OrderSchema.create({
       customer,
       products,
       price,
-      status: OrderStatusEnum.production
+      status: OrderStatusEnum.production,
     });
 
     return res.json(result);
