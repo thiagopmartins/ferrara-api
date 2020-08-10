@@ -1,81 +1,1216 @@
-{"_id":{"$oid":"5ecc792e2917b400048921f6"},"name":"Alho","description":"Molho artesanal, mussarela, alho frito e orégano.","price":{"$numberDouble":"32.9"},"category":"2","createdAt":{"$date":{"$numberLong":"1590458670688"}},"updatedAt":{"$date":{"$numberLong":"1590459205661"}},"__v":{"$numberInt":"0"}}
-{"_id":{"$oid":"5ecc7ade2917b400048921f7"},"name":"Atum","description":"Molho artesanal, mussarela, atum, cebola e orégano.","price":{"$numberDouble":"34.9"},"category":"2","createdAt":{"$date":{"$numberLong":"1590459102121"}},"updatedAt":{"$date":{"$numberLong":"1590459194666"}},"__v":{"$numberInt":"0"}}
-{"_id":{"$oid":"5ecc7b2b8773d30004db1ae2"},"name":"Bacon","description":"Molho artesanal, mussarela, bacon, cebola e orégano.","price":{"$numberDouble":"32.9"},"category":"2","createdAt":{"$date":{"$numberLong":"1590459179862"}},"updatedAt":{"$date":{"$numberLong":"1590459179862"}},"__v":{"$numberInt":"0"}}
-{"_id":{"$oid":"5ecc869c8773d30004db1aee"},"name":"Bacon e Ovos","description":"Molho artesanal, mussarela, bacon, ovo e orégano.","price":{"$numberDouble":"32.9"},"category":"2","createdAt":{"$date":{"$numberLong":"1590462108547"}},"updatedAt":{"$date":{"$numberLong":"1590462108547"}},"__v":{"$numberInt":"0"}}
-{"_id":{"$oid":"5ecc86aa8773d30004db1aef"},"name":"Calabacon","description":"Molho artesanal, mussarela, calabresa, bacon, cebola e orégano.","price":{"$numberDouble":"34.9"},"category":"2","createdAt":{"$date":{"$numberLong":"1590462122150"}},"updatedAt":{"$date":{"$numberLong":"1590462150640"}},"__v":{"$numberInt":"0"}}
-{"_id":{"$oid":"5ecc86ba8773d30004db1af0"},"name":"Calabresa","description":"Molho artesanal, mussarela, calabresa, cebola e orégano.","price":{"$numberDouble":"32.9"},"category":"2","createdAt":{"$date":{"$numberLong":"1590462138333"}},"updatedAt":{"$date":{"$numberLong":"1590462138333"}},"__v":{"$numberInt":"0"}}
-{"_id":{"$oid":"5ecc86db8773d30004db1af1"},"name":"Calabresa Bacon e Ovos","description":"Molho artesanal, mussarela, calabresa, bacon, ovos e orégano.","price":{"$numberDouble":"34.9"},"category":"2","createdAt":{"$date":{"$numberLong":"1590462171464"}},"updatedAt":{"$date":{"$numberLong":"1590462363137"}},"__v":{"$numberInt":"0"}}
-{"_id":{"$oid":"5ecc86e88773d30004db1af2"},"name":"Calabresa Especial","description":"Molho artesanal, mussarela, calabresa, bacon, presunto e orégano.","price":{"$numberDouble":"34.9"},"category":"2","createdAt":{"$date":{"$numberLong":"1590462184489"}},"updatedAt":{"$date":{"$numberLong":"1590462184489"}},"__v":{"$numberInt":"0"}}
-{"_id":{"$oid":"5ecc86f98773d30004db1af3"},"name":"Calabresa Milho e Ovos","description":"Molho artesanal, mussarela, calabresa, milho, ovo e orégano.","price":{"$numberDouble":"32.9"},"category":"2","createdAt":{"$date":{"$numberLong":"1590462201651"}},"updatedAt":{"$date":{"$numberLong":"1590462369912"}},"__v":{"$numberInt":"0"}}
-{"_id":{"$oid":"5ecc87058773d30004db1af4"},"name":"Capricciosa","description":"Molho artesanal, mussarela, bacon, champignon, cebola, ovo e orégano.","price":{"$numberDouble":"34.9"},"category":"2","createdAt":{"$date":{"$numberLong":"1590462213861"}},"updatedAt":{"$date":{"$numberLong":"1590462213861"}},"__v":{"$numberInt":"0"}}
-{"_id":{"$oid":"5ecc87128773d30004db1af5"},"name":"Da Casa","description":"Molho artesanal, muçarela, presunto, ovo, cebola roxa e orégano","price":{"$numberDouble":"32.9"},"category":"2","createdAt":{"$date":{"$numberLong":"1590462226257"}},"updatedAt":{"$date":{"$numberLong":"1590462226257"}},"__v":{"$numberInt":"0"}}
-{"_id":{"$oid":"5ecc87248773d30004db1af6"},"name":"Especial do Chefe","description":"Molho artesanal, mussarela, pepperoni, calabresa, bacon e orégano.","price":{"$numberDouble":"34.9"},"category":"2","createdAt":{"$date":{"$numberLong":"1590462244660"}},"updatedAt":{"$date":{"$numberLong":"1590462244660"}},"__v":{"$numberInt":"0"}}
-{"_id":{"$oid":"5ecc875d8773d30004db1af8"},"name":"Frango Bacon e Milho","description":"Molho artesanal, mussarela, frango, bacon, milho e orégano.","price":{"$numberDouble":"34.9"},"category":"2","createdAt":{"$date":{"$numberLong":"1590462301367"}},"updatedAt":{"$date":{"$numberLong":"1590462351677"}},"__v":{"$numberInt":"0"}}
-{"_id":{"$oid":"5ecc87738773d30004db1af9"},"name":"Frango com Catupiry e Alho Poró","description":"Molho artesanal, mussarela, frango, Catupiry, alho poró e orégano.","price":{"$numberDouble":"34.9"},"category":"2","createdAt":{"$date":{"$numberLong":"1590462323945"}},"updatedAt":{"$date":{"$numberLong":"1590462432526"}},"__v":{"$numberInt":"0"}}
-{"_id":{"$oid":"5ecc87868773d30004db1afa"},"name":"Frango com Catupiry","description":"Molho artesanal, mussarela, frango, Catupiry e orégano.","price":{"$numberDouble":"34.9"},"category":"2","createdAt":{"$date":{"$numberLong":"1590462342978"}},"updatedAt":{"$date":{"$numberLong":"1590462342978"}},"__v":{"$numberInt":"0"}}
-{"_id":{"$oid":"5ecc87cc8773d30004db1afb"},"name":"Frango com Cheddar","description":"Molho artesanal, mussarela, frango, cheddar e orégano.","price":{"$numberDouble":"34.9"},"category":"2","createdAt":{"$date":{"$numberLong":"1590462412906"}},"updatedAt":{"$date":{"$numberLong":"1590462412906"}},"__v":{"$numberInt":"0"}}
-{"_id":{"$oid":"5ecc880a8773d30004db1afc"},"name":"Ferrara","description":"Molho artesanal, mussarela, lombo canadense, abacaxi e orégano.","price":{"$numberDouble":"34.9"},"category":"2","createdAt":{"$date":{"$numberLong":"1590462474315"}},"updatedAt":{"$date":{"$numberLong":"1590462474315"}},"__v":{"$numberInt":"0"}}
-{"_id":{"$oid":"5ecc88258773d30004db1afd"},"name":"La Casa","description":"Molho artesanal, mussarela, lombo canadense, bacon, Catupiry e orégano.","price":{"$numberDouble":"34.9"},"category":"2","createdAt":{"$date":{"$numberLong":"1590462501509"}},"updatedAt":{"$date":{"$numberLong":"1590462501509"}},"__v":{"$numberInt":"0"}}
-{"_id":{"$oid":"5ecc88318773d30004db1afe"},"name":"Lombo Canadense","description":"Molho artesanal, mussarela, lombo canadense, Catupiry, cebola e orégano.","price":{"$numberDouble":"34.9"},"category":"2","createdAt":{"$date":{"$numberLong":"1590462513621"}},"updatedAt":{"$date":{"$numberLong":"1590462513621"}},"__v":{"$numberInt":"0"}}
-{"_id":{"$oid":"5ecc883e8773d30004db1aff"},"name":"Margherita","description":"Molho artesanal, mussarela, tomate, parmesão, manjericão e orégano.","price":{"$numberDouble":"32.9"},"category":"2","createdAt":{"$date":{"$numberLong":"1590462526697"}},"updatedAt":{"$date":{"$numberLong":"1590462526697"}},"__v":{"$numberInt":"0"}}
-{"_id":{"$oid":"5ecc884a8773d30004db1b00"},"name":"Mussarela","description":"Molho artesanal, mussarela e orégano.","price":{"$numberDouble":"32.9"},"category":"2","createdAt":{"$date":{"$numberLong":"1590462538929"}},"updatedAt":{"$date":{"$numberLong":"1590462538929"}},"__v":{"$numberInt":"0"}}
-{"_id":{"$oid":"5ecc88578773d30004db1b01"},"name":"Napolitana","description":"Molho artesanal, mussarela, alho frito, manjericão e orégano.","price":{"$numberDouble":"32.9"},"category":"2","createdAt":{"$date":{"$numberLong":"1590462551623"}},"updatedAt":{"$date":{"$numberLong":"1590462551623"}},"__v":{"$numberInt":"0"}}
-{"_id":{"$oid":"5ecc88638773d30004db1b02"},"name":"Palmito","description":"Molho artesanal, mussarela, tomate, palmito, cebola e orégano.","price":{"$numberDouble":"34.9"},"category":"2","createdAt":{"$date":{"$numberLong":"1590462563200"}},"updatedAt":{"$date":{"$numberLong":"1590462563200"}},"__v":{"$numberInt":"0"}}
-{"_id":{"$oid":"5ecc88728773d30004db1b03"},"name":"Pepperoni","description":"Molho artesanal, mussarela, pepperoni e orégano.","price":{"$numberDouble":"34.9"},"category":"2","createdAt":{"$date":{"$numberLong":"1590462578165"}},"updatedAt":{"$date":{"$numberLong":"1590462578165"}},"__v":{"$numberInt":"0"}}
-{"_id":{"$oid":"5ecc887f8773d30004db1b04"},"name":"Pepperoni com Catupiry","description":"Molho artesanal, mussarela, pepperoni, Catupiry e orégano.","price":{"$numberDouble":"34.9"},"category":"2","createdAt":{"$date":{"$numberLong":"1590462591384"}},"updatedAt":{"$date":{"$numberLong":"1590462591384"}},"__v":{"$numberInt":"0"}}
-{"_id":{"$oid":"5ecc888c8773d30004db1b05"},"name":"Portuguesa","description":"Molho artesanal, mussarela, tomate, calabresa, pimentão, cebola, presunto, ovo, milho e orégano.","price":{"$numberDouble":"34.9"},"category":"2","createdAt":{"$date":{"$numberLong":"1590462604793"}},"updatedAt":{"$date":{"$numberLong":"1590462604793"}},"__v":{"$numberInt":"0"}}
-{"_id":{"$oid":"5ecc88998773d30004db1b06"},"name":"Presunto","description":"Molho artesanal, mussarela, presunto e orégano.","price":{"$numberDouble":"32.9"},"category":"2","createdAt":{"$date":{"$numberLong":"1590462617706"}},"updatedAt":{"$date":{"$numberLong":"1590462617706"}},"__v":{"$numberInt":"0"}}
-{"_id":{"$oid":"5ecc88a58773d30004db1b07"},"name":"Presunto ao Alho","description":"Molho artesanal, mussarela, presunto, alho frito e orégano.","price":{"$numberDouble":"32.9"},"category":"2","createdAt":{"$date":{"$numberLong":"1590462629188"}},"updatedAt":{"$date":{"$numberLong":"1590462629188"}},"__v":{"$numberInt":"0"}}
-{"_id":{"$oid":"5ecc88b08773d30004db1b08"},"name":"Toscana","description":"Molho artesanal, mussarela, calabresa, tomate, bacon, cebola e orégano.","price":{"$numberDouble":"34.9"},"category":"2","createdAt":{"$date":{"$numberLong":"1590462640841"}},"updatedAt":{"$date":{"$numberLong":"1590462640841"}},"__v":{"$numberInt":"0"}}
-{"_id":{"$oid":"5ecc88bc8773d30004db1b09"},"name":"4 Queijos","description":"Molho artesanal, mussarela, provolone, parmesão, Catupiry e orégano.","price":{"$numberDouble":"34.9"},"category":"2","createdAt":{"$date":{"$numberLong":"1590462652590"}},"updatedAt":{"$date":{"$numberLong":"1590462652590"}},"__v":{"$numberInt":"0"}}
-{"_id":{"$oid":"5ecc88cb8773d30004db1b0a"},"name":"5 Queijos","description":"Molho artesanal, mussarela, provolone, parmesão, gorgonzola, Catupiry e orégano.","price":{"$numberDouble":"34.9"},"category":"2","createdAt":{"$date":{"$numberLong":"1590462667590"}},"updatedAt":{"$date":{"$numberLong":"1590462667590"}},"__v":{"$numberInt":"0"}}
-{"_id":{"$oid":"5ecc89268773d30004db1b0b"},"name":"Alho","description":"Molho artesanal, mussarela, alho frito e orégano.","price":{"$numberDouble":"47.9"},"category":"3","createdAt":{"$date":{"$numberLong":"1590462758741"}},"updatedAt":{"$date":{"$numberLong":"1590462758741"}},"__v":{"$numberInt":"0"}}
-{"_id":{"$oid":"5ecc8cfd8773d30004db1b0c"},"name":"Atum","description":"Molho artesanal, mussarela, atum, cebola e orégano.","price":{"$numberDouble":"49.9"},"category":"3","createdAt":{"$date":{"$numberLong":"1590463741215"}},"updatedAt":{"$date":{"$numberLong":"1590463741215"}},"__v":{"$numberInt":"0"}}
-{"_id":{"$oid":"5ecc8d258773d30004db1b0d"},"name":"Bacon","description":"Molho artesanal, mussarela, bacon, cebola e orégano.","price":{"$numberDouble":"47.9"},"category":"3","createdAt":{"$date":{"$numberLong":"1590463781220"}},"updatedAt":{"$date":{"$numberLong":"1590463781220"}},"__v":{"$numberInt":"0"}}
-{"_id":{"$oid":"5ecc8d388773d30004db1b0e"},"name":"Bacon e Ovos","description":"Molho artesanal, mussarela, bacon, ovo e orégano.","price":{"$numberDouble":"47.9"},"category":"3","createdAt":{"$date":{"$numberLong":"1590463800088"}},"updatedAt":{"$date":{"$numberLong":"1590463800088"}},"__v":{"$numberInt":"0"}}
-{"_id":{"$oid":"5ecc8d498773d30004db1b0f"},"name":"Calabacon","description":"Molho artesanal, mussarela, calabresa, bacon, cebola e orégano.","price":{"$numberDouble":"49.9"},"category":"3","createdAt":{"$date":{"$numberLong":"1590463817392"}},"updatedAt":{"$date":{"$numberLong":"1590463817392"}},"__v":{"$numberInt":"0"}}
-{"_id":{"$oid":"5ecc8d5a8773d30004db1b10"},"name":"Calabresa","description":"Molho artesanal, mussarela, calabresa, cebola e orégano.","price":{"$numberDouble":"47.9"},"category":"3","createdAt":{"$date":{"$numberLong":"1590463834390"}},"updatedAt":{"$date":{"$numberLong":"1590463834390"}},"__v":{"$numberInt":"0"}}
-{"_id":{"$oid":"5ecc8d858773d30004db1b11"},"name":"Calabresa Bacon e Ovos","description":"Molho artesanal, mussarela, calabresa, bacon, ovos e orégano.","price":{"$numberDouble":"49.9"},"category":"3","createdAt":{"$date":{"$numberLong":"1590463877642"}},"updatedAt":{"$date":{"$numberLong":"1590463877642"}},"__v":{"$numberInt":"0"}}
-{"_id":{"$oid":"5ecc8d9c8773d30004db1b12"},"name":"Calabresa Especial","description":"Molho artesanal, mussarela, calabresa, bacon, presunto e orégano.","price":{"$numberDouble":"49.9"},"category":"3","createdAt":{"$date":{"$numberLong":"1590463900633"}},"updatedAt":{"$date":{"$numberLong":"1590463900633"}},"__v":{"$numberInt":"0"}}
-{"_id":{"$oid":"5ecc8dbc8773d30004db1b13"},"name":"Calabresa Milho e Ovos","description":"Molho artesanal, mussarela, calabresa, milho, ovo e orégano.","price":{"$numberDouble":"47.9"},"category":"3","createdAt":{"$date":{"$numberLong":"1590463932311"}},"updatedAt":{"$date":{"$numberLong":"1590463932311"}},"__v":{"$numberInt":"0"}}
-{"_id":{"$oid":"5ecc8dca8773d30004db1b14"},"name":"Capricciosa","description":"Molho artesanal, mussarela, bacon, champignon, cebola, ovo e orégano.","price":{"$numberDouble":"49.9"},"category":"3","createdAt":{"$date":{"$numberLong":"1590463946693"}},"updatedAt":{"$date":{"$numberLong":"1590463946693"}},"__v":{"$numberInt":"0"}}
-{"_id":{"$oid":"5ecc8dd88773d30004db1b15"},"name":"Da Casa","description":"Molho artesanal, muçarela, presunto, ovo, cebola roxa e orégano","price":{"$numberDouble":"47.9"},"category":"3","createdAt":{"$date":{"$numberLong":"1590463960060"}},"updatedAt":{"$date":{"$numberLong":"1590463960060"}},"__v":{"$numberInt":"0"}}
-{"_id":{"$oid":"5ecc8de48773d30004db1b16"},"name":"Especial do Chefe","description":"Molho artesanal, mussarela, pepperoni, calabresa, bacon e orégano.","price":{"$numberDouble":"49.9"},"category":"3","createdAt":{"$date":{"$numberLong":"1590463972772"}},"updatedAt":{"$date":{"$numberLong":"1590463972772"}},"__v":{"$numberInt":"0"}}
-{"_id":{"$oid":"5ecc8df78773d30004db1b17"},"name":"Frango Bacon e Milho","description":"Molho artesanal, mussarela, frango, bacon, milho e orégano.","price":{"$numberDouble":"49.9"},"category":"3","createdAt":{"$date":{"$numberLong":"1590463991956"}},"updatedAt":{"$date":{"$numberLong":"1590463991956"}},"__v":{"$numberInt":"0"}}
-{"_id":{"$oid":"5ecc8e0a8773d30004db1b18"},"name":"Frango com Catupiry e Alho Poró","description":"Molho artesanal, mussarela, frango, Catupiry, alho poró e orégano.","price":{"$numberDouble":"49.9"},"category":"3","createdAt":{"$date":{"$numberLong":"1590464010310"}},"updatedAt":{"$date":{"$numberLong":"1590464010310"}},"__v":{"$numberInt":"0"}}
-{"_id":{"$oid":"5ecc8e168773d30004db1b19"},"name":"Frango com Catupiry","description":"Molho artesanal, mussarela, frango, Catupiry e orégano.","price":{"$numberDouble":"49.9"},"category":"3","createdAt":{"$date":{"$numberLong":"1590464022068"}},"updatedAt":{"$date":{"$numberLong":"1590464022068"}},"__v":{"$numberInt":"0"}}
-{"_id":{"$oid":"5ecc8e268773d30004db1b1a"},"name":"Frango com Cheddar","description":"Molho artesanal, mussarela, frango, cheddar e orégano.","price":{"$numberDouble":"49.9"},"category":"3","createdAt":{"$date":{"$numberLong":"1590464038544"}},"updatedAt":{"$date":{"$numberLong":"1590464038544"}},"__v":{"$numberInt":"0"}}
-{"_id":{"$oid":"5ecc8e368773d30004db1b1b"},"name":"La Casa","description":"Molho artesanal, mussarela, lombo canadense, bacon, Catupiry e orégano.","price":{"$numberDouble":"49.9"},"category":"3","createdAt":{"$date":{"$numberLong":"1590464054650"}},"updatedAt":{"$date":{"$numberLong":"1590464054650"}},"__v":{"$numberInt":"0"}}
-{"_id":{"$oid":"5ecc8e428773d30004db1b1c"},"name":"Lombo Canadense","description":"Molho artesanal, mussarela, lombo canadense, Catupiry, cebola e orégano.","price":{"$numberDouble":"49.9"},"category":"3","createdAt":{"$date":{"$numberLong":"1590464066791"}},"updatedAt":{"$date":{"$numberLong":"1590464066791"}},"__v":{"$numberInt":"0"}}
-{"_id":{"$oid":"5ecc8e568773d30004db1b1d"},"name":"Ferrara","description":"Molho artesanal, mussarela, lombo canadense, abacaxi e orégano.","price":{"$numberDouble":"49.9"},"category":"3","createdAt":{"$date":{"$numberLong":"1590464086579"}},"updatedAt":{"$date":{"$numberLong":"1590464086579"}},"__v":{"$numberInt":"0"}}
-{"_id":{"$oid":"5ecc8e628773d30004db1b1e"},"name":"Margherita","description":"Molho artesanal, mussarela, tomate, parmesão, manjericão e orégano.","price":{"$numberDouble":"47.9"},"category":"3","createdAt":{"$date":{"$numberLong":"1590464098435"}},"updatedAt":{"$date":{"$numberLong":"1590464098435"}},"__v":{"$numberInt":"0"}}
-{"_id":{"$oid":"5ecc8e6d8773d30004db1b1f"},"name":"Mussarela","description":"Molho artesanal, mussarela e orégano.","price":{"$numberDouble":"47.9"},"category":"3","createdAt":{"$date":{"$numberLong":"1590464109227"}},"updatedAt":{"$date":{"$numberLong":"1590464109227"}},"__v":{"$numberInt":"0"}}
-{"_id":{"$oid":"5ecc8e788773d30004db1b20"},"name":"Napolitana","description":"Molho artesanal, mussarela, alho frito, manjericão e orégano.","price":{"$numberDouble":"47.9"},"category":"3","createdAt":{"$date":{"$numberLong":"1590464120383"}},"updatedAt":{"$date":{"$numberLong":"1590464120383"}},"__v":{"$numberInt":"0"}}
-{"_id":{"$oid":"5ecc8e8c8773d30004db1b21"},"name":"Palmito","description":"Molho artesanal, mussarela, tomate, palmito, cebola e orégano.","price":{"$numberDouble":"49.9"},"category":"3","createdAt":{"$date":{"$numberLong":"1590464140036"}},"updatedAt":{"$date":{"$numberLong":"1590464140036"}},"__v":{"$numberInt":"0"}}
-{"_id":{"$oid":"5ecc8e988773d30004db1b22"},"name":"Pepperoni","description":"Molho artesanal, mussarela, pepperoni e orégano.","price":{"$numberDouble":"49.9"},"category":"3","createdAt":{"$date":{"$numberLong":"1590464152336"}},"updatedAt":{"$date":{"$numberLong":"1590464152336"}},"__v":{"$numberInt":"0"}}
-{"_id":{"$oid":"5ecc8ea48773d30004db1b23"},"name":"Pepperoni com Catupiry","description":"Molho artesanal, mussarela, pepperoni, Catupiry e orégano.","price":{"$numberDouble":"49.9"},"category":"3","createdAt":{"$date":{"$numberLong":"1590464164307"}},"updatedAt":{"$date":{"$numberLong":"1590464164307"}},"__v":{"$numberInt":"0"}}
-{"_id":{"$oid":"5ecc8eb18773d30004db1b24"},"name":"Portuguesa","description":"Molho artesanal, mussarela, tomate, calabresa, pimentão, cebola, presunto, ovo, milho e orégano.","price":{"$numberDouble":"49.9"},"category":"3","createdAt":{"$date":{"$numberLong":"1590464177746"}},"updatedAt":{"$date":{"$numberLong":"1590464177746"}},"__v":{"$numberInt":"0"}}
-{"_id":{"$oid":"5ecc8ebe8773d30004db1b25"},"name":"Presunto","description":"Molho artesanal, mussarela, presunto e orégano.","price":{"$numberDouble":"47.9"},"category":"3","createdAt":{"$date":{"$numberLong":"1590464190034"}},"updatedAt":{"$date":{"$numberLong":"1590464190034"}},"__v":{"$numberInt":"0"}}
-{"_id":{"$oid":"5ecc8ec88773d30004db1b26"},"name":"Presunto ao Alho","description":"Molho artesanal, mussarela, presunto, alho frito e orégano.","price":{"$numberDouble":"47.9"},"category":"3","createdAt":{"$date":{"$numberLong":"1590464200820"}},"updatedAt":{"$date":{"$numberLong":"1590464200820"}},"__v":{"$numberInt":"0"}}
-{"_id":{"$oid":"5ecc8ed58773d30004db1b27"},"name":"Toscana","description":"Molho artesanal, mussarela, calabresa, tomate, bacon, cebola e orégano.","price":{"$numberDouble":"49.9"},"category":"3","createdAt":{"$date":{"$numberLong":"1590464213076"}},"updatedAt":{"$date":{"$numberLong":"1590464213076"}},"__v":{"$numberInt":"0"}}
-{"_id":{"$oid":"5ecc8ee18773d30004db1b28"},"name":"4 Queijos","description":"Molho artesanal, mussarela, provolone, parmesão, Catupiry e orégano.","price":{"$numberDouble":"49.9"},"category":"3","createdAt":{"$date":{"$numberLong":"1590464225486"}},"updatedAt":{"$date":{"$numberLong":"1590464225486"}},"__v":{"$numberInt":"0"}}
-{"_id":{"$oid":"5ecc8eed8773d30004db1b29"},"name":"5 Queijos","description":"Molho artesanal, mussarela, provolone, parmesão, gorgonzola, Catupiry e orégano.","price":{"$numberDouble":"49.9"},"category":"3","createdAt":{"$date":{"$numberLong":"1590464237990"}},"updatedAt":{"$date":{"$numberLong":"1590464237990"}},"__v":{"$numberInt":"0"}}
-{"_id":{"$oid":"5ecc8f6f8773d30004db1b2a"},"name":"Borda Catupiry","description":"Borda Catupiry","price":{"$numberDouble":"7.9"},"category":"1","createdAt":{"$date":{"$numberLong":"1590464367524"}},"updatedAt":{"$date":{"$numberLong":"1590464367524"}},"__v":{"$numberInt":"0"}}
-{"_id":{"$oid":"5ecc8f7e8773d30004db1b2b"},"name":"Borda Catupiry com Bacon","description":"Borda Catupiry com Bacon","price":{"$numberDouble":"9.9"},"category":"1","createdAt":{"$date":{"$numberLong":"1590464382397"}},"updatedAt":{"$date":{"$numberLong":"1590464382397"}},"__v":{"$numberInt":"0"}}
-{"_id":{"$oid":"5ecc8f878773d30004db1b2c"},"name":"Borda Cheddar","description":"Borda Cheddar","price":{"$numberDouble":"7.9"},"category":"1","createdAt":{"$date":{"$numberLong":"1590464391088"}},"updatedAt":{"$date":{"$numberLong":"1590464391088"}},"__v":{"$numberInt":"0"}}
-{"_id":{"$oid":"5ecc8f8f8773d30004db1b2d"},"name":"Borda Cheddar com Bacon","description":"Borda Cheddar com Bacon","price":{"$numberDouble":"9.9"},"category":"1","createdAt":{"$date":{"$numberLong":"1590464399663"}},"updatedAt":{"$date":{"$numberLong":"1590464399663"}},"__v":{"$numberInt":"0"}}
-{"_id":{"$oid":"5ecc8fa98773d30004db1b2e"},"name":"Coca-Cola 1,5L","description":"Coca-Cola 1,5L","price":{"$numberDouble":"7.9"},"category":"6","createdAt":{"$date":{"$numberLong":"1590464425080"}},"updatedAt":{"$date":{"$numberLong":"1590464425080"}},"__v":{"$numberInt":"0"}}
-{"_id":{"$oid":"5ecc8fcb8773d30004db1b30"},"name":"Guaraná Antártica 1,5L","description":"Guaraná Antártica 1,5L","price":{"$numberDouble":"7.9"},"category":"6","createdAt":{"$date":{"$numberLong":"1590464459262"}},"updatedAt":{"$date":{"$numberLong":"1590464459262"}},"__v":{"$numberInt":"0"}}
-{"_id":{"$oid":"5ecc91da8773d30004db1b31"},"name":"Banana com Canela","description":"mussarela, banana, canela, açúcar e leite condensado","price":{"$numberDouble":"29.9"},"category":"5","createdAt":{"$date":{"$numberLong":"1590464986911"}},"updatedAt":{"$date":{"$numberLong":"1590465014545"}},"__v":{"$numberInt":"0"}}
-{"_id":{"$oid":"5ecc92128773d30004db1b32"},"name":"Brigadeiro","description":"chocolate e granulado","price":{"$numberDouble":"29.9"},"category":"5","createdAt":{"$date":{"$numberLong":"1590465042053"}},"updatedAt":{"$date":{"$numberLong":"1590465042053"}},"__v":{"$numberInt":"0"}}
-{"_id":{"$oid":"5ecc92208773d30004db1b33"},"name":"Prestígio","description":"chocolate e coco ralado","price":{"$numberDouble":"29.9"},"category":"5","createdAt":{"$date":{"$numberLong":"1590465056884"}},"updatedAt":{"$date":{"$numberLong":"1590465071479"}},"__v":{"$numberInt":"0"}}
-{"_id":{"$oid":"5ecc92558773d30004db1b34"},"name":"Romeu e Julieta","description":"goiabada e catupiry","price":{"$numberDouble":"29.9"},"category":"5","createdAt":{"$date":{"$numberLong":"1590465109196"}},"updatedAt":{"$date":{"$numberLong":"1590465109196"}},"__v":{"$numberInt":"0"}}
-{"_id":{"$oid":"5ecc92668773d30004db1b35"},"name":"Chocolate com Morango","description":"chocolate e morango","price":{"$numberDouble":"29.9"},"category":"5","createdAt":{"$date":{"$numberLong":"1590465126269"}},"updatedAt":{"$date":{"$numberLong":"1590465126269"}},"__v":{"$numberInt":"0"}}
-{"_id":{"$oid":"5ecc92778773d30004db1b36"},"name":"Chocolate com Confete","description":"chocolate e confete","price":{"$numberDouble":"29.9"},"category":"5","createdAt":{"$date":{"$numberLong":"1590465143576"}},"updatedAt":{"$date":{"$numberLong":"1590465143576"}},"__v":{"$numberInt":"0"}}
-{"_id":{"$oid":"5ecc92858773d30004db1b37"},"name":"Doce de Leite","description":"doce de leite","price":{"$numberDouble":"29.9"},"category":"5","createdAt":{"$date":{"$numberLong":"1590465157811"}},"updatedAt":{"$date":{"$numberLong":"1590465157811"}},"__v":{"$numberInt":"0"}}
-{"_id":{"$oid":"5ecc92988773d30004db1b38"},"name":"Doce de Leite com Paçoca","description":"doce de leite e paçoca","price":{"$numberDouble":"29.9"},"category":"5","createdAt":{"$date":{"$numberLong":"1590465176089"}},"updatedAt":{"$date":{"$numberLong":"1590465176089"}},"__v":{"$numberInt":"0"}}
-{"_id":{"$oid":"5ecc92aa8773d30004db1b39"},"name":"Chocolate com Paçoca","description":"chocolate e paçoca","price":{"$numberDouble":"29.9"},"category":"5","createdAt":{"$date":{"$numberLong":"1590465194281"}},"updatedAt":{"$date":{"$numberLong":"1590465194281"}},"__v":{"$numberInt":"0"}}
-{"_id":{"$oid":"5ecc92ba8773d30004db1b3a"},"name":"Chocolate com Banana","description":"chocolate e banana","price":{"$numberDouble":"29.9"},"category":"5","createdAt":{"$date":{"$numberLong":"1590465210240"}},"updatedAt":{"$date":{"$numberLong":"1590465221363"}},"__v":{"$numberInt":"0"}}
-{"_id":{"$oid":"5ecc92df8773d30004db1b3b"},"name":"Doce de Leite com Banana","description":"doce de leite e banana","price":{"$numberDouble":"29.9"},"category":"5","createdAt":{"$date":{"$numberLong":"1590465247731"}},"updatedAt":{"$date":{"$numberLong":"1590465247731"}},"__v":{"$numberInt":"0"}}
-{"_id":{"$oid":"5eccf58fd3ae520004ef4306"},"name":"Coca-Cola 1,5L","description":"Coca-Cola 1,5L","price":{"$numberInt":"0"},"category":"6","createdAt":{"$date":{"$numberLong":"1590490511559"}},"updatedAt":{"$date":{"$numberLong":"1590490511559"}},"__v":{"$numberInt":"0"}}
-{"_id":{"$oid":"5eccf5f3d3ae520004ef4307"},"name":"Guaraná Antártica 1,5L","description":"Guaraná Antártica 1,5L ","price":{"$numberInt":"0"},"category":"6","createdAt":{"$date":{"$numberLong":"1590490611157"}},"updatedAt":{"$date":{"$numberLong":"1590490611157"}},"__v":{"$numberInt":"0"}}
+[{
+  "_id": {
+    "$oid": "5ecc88998773d30004db1b06"
+  },
+  "name": "Presunto",
+  "description": "Molho artesanal, mussarela, presunto e orégano.",
+  "price": 33,
+  "category": "2",
+  "createdAt": {
+    "$date": "2020-05-26T03:10:17.706Z"
+  },
+  "updatedAt": {
+    "$date": "2020-05-26T03:10:17.706Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5ecc884a8773d30004db1b00"
+  },
+  "name": "Mussarela",
+  "description": "Molho artesanal, mussarela e orégano.",
+  "price": 33,
+  "category": "2",
+  "createdAt": {
+    "$date": "2020-05-26T03:08:58.929Z"
+  },
+  "updatedAt": {
+    "$date": "2020-05-26T03:08:58.929Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5ecc8e368773d30004db1b1b"
+  },
+  "name": "La Casa",
+  "description": "Molho artesanal, mussarela, lombo canadense, bacon, Catupiry e orégano.",
+  "price": 50,
+  "category": "3",
+  "createdAt": {
+    "$date": "2020-05-26T03:34:14.650Z"
+  },
+  "updatedAt": {
+    "$date": "2020-05-26T03:34:14.650Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5ecc8e568773d30004db1b1d"
+  },
+  "name": "Ferrara",
+  "description": "Molho artesanal, mussarela, lombo canadense, abacaxi e orégano.",
+  "price": 50,
+  "category": "3",
+  "createdAt": {
+    "$date": "2020-05-26T03:34:46.579Z"
+  },
+  "updatedAt": {
+    "$date": "2020-05-26T03:34:46.579Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5ecc8e8c8773d30004db1b21"
+  },
+  "name": "Palmito",
+  "description": "Molho artesanal, mussarela, tomate, palmito, cebola e orégano.",
+  "price": 50,
+  "category": "3",
+  "createdAt": {
+    "$date": "2020-05-26T03:35:40.036Z"
+  },
+  "updatedAt": {
+    "$date": "2020-05-26T03:35:40.036Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5ecc8ed58773d30004db1b27"
+  },
+  "name": "Toscana",
+  "description": "Molho artesanal, mussarela, calabresa, tomate, bacon, cebola e orégano.",
+  "price": 50,
+  "category": "3",
+  "createdAt": {
+    "$date": "2020-05-26T03:36:53.076Z"
+  },
+  "updatedAt": {
+    "$date": "2020-05-26T03:36:53.076Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5ecc8ee18773d30004db1b28"
+  },
+  "name": "4 Queijos",
+  "description": "Molho artesanal, mussarela, provolone, parmesão, Catupiry e orégano.",
+  "price": 50,
+  "category": "3",
+  "createdAt": {
+    "$date": "2020-05-26T03:37:05.486Z"
+  },
+  "updatedAt": {
+    "$date": "2020-05-26T03:37:05.486Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5ecc869c8773d30004db1aee"
+  },
+  "name": "Bacon e Ovos",
+  "description": "Molho artesanal, mussarela, bacon, ovo e orégano.",
+  "price": 33,
+  "category": "2",
+  "createdAt": {
+    "$date": "2020-05-26T03:01:48.547Z"
+  },
+  "updatedAt": {
+    "$date": "2020-05-26T03:01:48.547Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5ecc88578773d30004db1b01"
+  },
+  "name": "Napolitana",
+  "description": "Molho artesanal, mussarela, alho frito, manjericão e orégano.",
+  "price": 33,
+  "category": "2",
+  "createdAt": {
+    "$date": "2020-05-26T03:09:11.623Z"
+  },
+  "updatedAt": {
+    "$date": "2020-05-26T03:09:11.623Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5ecc887f8773d30004db1b04"
+  },
+  "name": "Pepperoni com Catupiry",
+  "description": "Molho artesanal, mussarela, pepperoni, Catupiry e orégano.",
+  "price": 35,
+  "category": "2",
+  "createdAt": {
+    "$date": "2020-05-26T03:09:51.384Z"
+  },
+  "updatedAt": {
+    "$date": "2020-05-26T03:09:51.384Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5ecc8d5a8773d30004db1b10"
+  },
+  "name": "Calabresa",
+  "description": "Molho artesanal, mussarela, calabresa, cebola e orégano.",
+  "price": 48,
+  "category": "3",
+  "createdAt": {
+    "$date": "2020-05-26T03:30:34.390Z"
+  },
+  "updatedAt": {
+    "$date": "2020-05-26T03:30:34.390Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5ecc8dd88773d30004db1b15"
+  },
+  "name": "Da Casa",
+  "description": "Molho artesanal, muçarela, presunto, ovo, cebola roxa e orégano",
+  "price": 48,
+  "category": "3",
+  "createdAt": {
+    "$date": "2020-05-26T03:32:40.060Z"
+  },
+  "updatedAt": {
+    "$date": "2020-05-26T03:32:40.060Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5ecc8e988773d30004db1b22"
+  },
+  "name": "Pepperoni",
+  "description": "Molho artesanal, mussarela, pepperoni e orégano.",
+  "price": 50,
+  "category": "3",
+  "createdAt": {
+    "$date": "2020-05-26T03:35:52.336Z"
+  },
+  "updatedAt": {
+    "$date": "2020-05-26T03:35:52.336Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5ecc8f6f8773d30004db1b2a"
+  },
+  "name": "Borda Catupiry",
+  "description": "Borda Catupiry",
+  "price": 10,
+  "category": "1",
+  "createdAt": {
+    "$date": "2020-05-26T03:39:27.524Z"
+  },
+  "updatedAt": {
+    "$date": "2020-07-25T22:43:00.935Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5ecc87738773d30004db1af9"
+  },
+  "name": "Frango com Catupiry e Alho Poró",
+  "description": "Molho artesanal, mussarela, frango, Catupiry, alho poró e orégano.",
+  "price": 35,
+  "category": "2",
+  "createdAt": {
+    "$date": "2020-05-26T03:05:23.945Z"
+  },
+  "updatedAt": {
+    "$date": "2020-05-26T03:07:12.526Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5ecc88258773d30004db1afd"
+  },
+  "name": "La Casa",
+  "description": "Molho artesanal, mussarela, lombo canadense, bacon, Catupiry e orégano.",
+  "price": 35,
+  "category": "2",
+  "createdAt": {
+    "$date": "2020-05-26T03:08:21.509Z"
+  },
+  "updatedAt": {
+    "$date": "2020-05-26T03:08:21.509Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5ecc8d858773d30004db1b11"
+  },
+  "name": "Calabresa Bacon e Ovos",
+  "description": "Molho artesanal, mussarela, calabresa, bacon, ovos e orégano.",
+  "price": 50,
+  "category": "3",
+  "createdAt": {
+    "$date": "2020-05-26T03:31:17.642Z"
+  },
+  "updatedAt": {
+    "$date": "2020-05-26T03:31:17.642Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5ecc88638773d30004db1b02"
+  },
+  "name": "Palmito",
+  "description": "Molho artesanal, mussarela, tomate, palmito, cebola e orégano.",
+  "price": 35,
+  "category": "2",
+  "createdAt": {
+    "$date": "2020-05-26T03:09:23.200Z"
+  },
+  "updatedAt": {
+    "$date": "2020-05-26T03:09:23.200Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5ecc86aa8773d30004db1aef"
+  },
+  "name": "Calabacon",
+  "description": "Molho artesanal, mussarela, calabresa, bacon, cebola e orégano.",
+  "price": 35,
+  "category": "2",
+  "createdAt": {
+    "$date": "2020-05-26T03:02:02.150Z"
+  },
+  "updatedAt": {
+    "$date": "2020-05-26T03:02:30.640Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5ecc8eb18773d30004db1b24"
+  },
+  "name": "Portuguesa",
+  "description": "Molho artesanal, mussarela, tomate, calabresa, pimentão, cebola, presunto, ovo, milho e orégano.",
+  "price": 50,
+  "category": "3",
+  "createdAt": {
+    "$date": "2020-05-26T03:36:17.746Z"
+  },
+  "updatedAt": {
+    "$date": "2020-05-26T03:36:17.746Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5ecc87058773d30004db1af4"
+  },
+  "name": "Capricciosa",
+  "description": "Molho artesanal, mussarela, bacon, champignon, cebola, ovo e orégano.",
+  "price": 35,
+  "category": "2",
+  "createdAt": {
+    "$date": "2020-05-26T03:03:33.861Z"
+  },
+  "updatedAt": {
+    "$date": "2020-05-26T03:03:33.861Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5ecc87248773d30004db1af6"
+  },
+  "name": "Especial do Chefe",
+  "description": "Molho artesanal, mussarela, pepperoni, calabresa, bacon e orégano.",
+  "price": 35,
+  "category": "2",
+  "createdAt": {
+    "$date": "2020-05-26T03:04:04.660Z"
+  },
+  "updatedAt": {
+    "$date": "2020-05-26T03:04:04.660Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5ecc8cfd8773d30004db1b0c"
+  },
+  "name": "Atum",
+  "description": "Molho artesanal, mussarela, atum, cebola e orégano.",
+  "price": 50,
+  "category": "3",
+  "createdAt": {
+    "$date": "2020-05-26T03:29:01.215Z"
+  },
+  "updatedAt": {
+    "$date": "2020-05-26T03:29:01.215Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5ecc8e428773d30004db1b1c"
+  },
+  "name": "Lombo Canadense",
+  "description": "Molho artesanal, mussarela, lombo canadense, Catupiry, cebola e orégano.",
+  "price": 50,
+  "category": "3",
+  "createdAt": {
+    "$date": "2020-05-26T03:34:26.791Z"
+  },
+  "updatedAt": {
+    "$date": "2020-05-26T03:34:26.791Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5ecc792e2917b400048921f6"
+  },
+  "name": "Alho",
+  "description": "Molho artesanal, mussarela, alho frito e orégano.",
+  "price": 33,
+  "category": "2",
+  "createdAt": {
+    "$date": "2020-05-26T02:04:30.688Z"
+  },
+  "updatedAt": {
+    "$date": "2020-05-26T02:13:25.661Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5ecc87128773d30004db1af5"
+  },
+  "name": "Da Casa",
+  "description": "Molho artesanal, muçarela, presunto, ovo, cebola roxa e orégano",
+  "price": 33,
+  "category": "2",
+  "createdAt": {
+    "$date": "2020-05-26T03:03:46.257Z"
+  },
+  "updatedAt": {
+    "$date": "2020-05-26T03:03:46.257Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5ecc86ba8773d30004db1af0"
+  },
+  "name": "Calabresa",
+  "description": "Molho artesanal, mussarela, calabresa, cebola e orégano.",
+  "price": 33,
+  "category": "2",
+  "createdAt": {
+    "$date": "2020-05-26T03:02:18.333Z"
+  },
+  "updatedAt": {
+    "$date": "2020-05-26T03:02:18.333Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5ecc87868773d30004db1afa"
+  },
+  "name": "Frango com Catupiry",
+  "description": "Molho artesanal, mussarela, frango, Catupiry e orégano.",
+  "price": 35,
+  "category": "2",
+  "createdAt": {
+    "$date": "2020-05-26T03:05:42.978Z"
+  },
+  "updatedAt": {
+    "$date": "2020-05-26T03:05:42.978Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5ecc883e8773d30004db1aff"
+  },
+  "name": "Margherita",
+  "description": "Molho artesanal, mussarela, tomate, parmesão, manjericão e orégano.",
+  "price": 33,
+  "category": "2",
+  "createdAt": {
+    "$date": "2020-05-26T03:08:46.697Z"
+  },
+  "updatedAt": {
+    "$date": "2020-05-26T03:08:46.697Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5ecc88728773d30004db1b03"
+  },
+  "name": "Pepperoni",
+  "description": "Molho artesanal, mussarela, pepperoni e orégano.",
+  "price": 35,
+  "category": "2",
+  "createdAt": {
+    "$date": "2020-05-26T03:09:38.165Z"
+  },
+  "updatedAt": {
+    "$date": "2020-05-26T03:09:38.165Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5ecc875d8773d30004db1af8"
+  },
+  "name": "Frango Bacon e Milho",
+  "description": "Molho artesanal, mussarela, frango, bacon, milho e orégano.",
+  "price": 35,
+  "category": "2",
+  "createdAt": {
+    "$date": "2020-05-26T03:05:01.367Z"
+  },
+  "updatedAt": {
+    "$date": "2020-05-26T03:05:51.677Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5ecc8e788773d30004db1b20"
+  },
+  "name": "Napolitana",
+  "description": "Molho artesanal, mussarela, alho frito, manjericão e orégano.",
+  "price": 48,
+  "category": "3",
+  "createdAt": {
+    "$date": "2020-05-26T03:35:20.383Z"
+  },
+  "updatedAt": {
+    "$date": "2020-05-26T03:35:20.383Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5ecc8ebe8773d30004db1b25"
+  },
+  "name": "Presunto",
+  "description": "Molho artesanal, mussarela, presunto e orégano.",
+  "price": 48,
+  "category": "3",
+  "createdAt": {
+    "$date": "2020-05-26T03:36:30.034Z"
+  },
+  "updatedAt": {
+    "$date": "2020-05-26T03:36:30.034Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5ecc88318773d30004db1afe"
+  },
+  "name": "Lombo Canadense",
+  "description": "Molho artesanal, mussarela, lombo canadense, Catupiry, cebola e orégano.",
+  "price": 35,
+  "category": "2",
+  "createdAt": {
+    "$date": "2020-05-26T03:08:33.621Z"
+  },
+  "updatedAt": {
+    "$date": "2020-05-26T03:08:33.621Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5ecc7b2b8773d30004db1ae2"
+  },
+  "name": "Bacon",
+  "description": "Molho artesanal, mussarela, bacon, cebola e orégano.",
+  "price": 33,
+  "category": "2",
+  "createdAt": {
+    "$date": "2020-05-26T02:12:59.862Z"
+  },
+  "updatedAt": {
+    "$date": "2020-05-26T02:12:59.862Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5ecc888c8773d30004db1b05"
+  },
+  "name": "Portuguesa",
+  "description": "Molho artesanal, mussarela, tomate, calabresa, pimentão, cebola, presunto, ovo, milho e orégano.",
+  "price": 35,
+  "category": "2",
+  "createdAt": {
+    "$date": "2020-05-26T03:10:04.793Z"
+  },
+  "updatedAt": {
+    "$date": "2020-05-26T03:10:04.793Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5ecc8dbc8773d30004db1b13"
+  },
+  "name": "Calabresa Milho e Ovos",
+  "description": "Molho artesanal, mussarela, calabresa, milho, ovo e orégano.",
+  "price": 48,
+  "category": "3",
+  "createdAt": {
+    "$date": "2020-05-26T03:32:12.311Z"
+  },
+  "updatedAt": {
+    "$date": "2020-05-26T03:32:12.311Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5ecc88bc8773d30004db1b09"
+  },
+  "name": "4 Queijos",
+  "description": "Molho artesanal, mussarela, provolone, parmesão, Catupiry e orégano.",
+  "price": 35,
+  "category": "2",
+  "createdAt": {
+    "$date": "2020-05-26T03:10:52.590Z"
+  },
+  "updatedAt": {
+    "$date": "2020-05-26T03:10:52.590Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5ecc8df78773d30004db1b17"
+  },
+  "name": "Frango Bacon e Milho",
+  "description": "Molho artesanal, mussarela, frango, bacon, milho e orégano.",
+  "price": 50,
+  "category": "3",
+  "createdAt": {
+    "$date": "2020-05-26T03:33:11.956Z"
+  },
+  "updatedAt": {
+    "$date": "2020-05-26T03:33:11.956Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5ecc8e168773d30004db1b19"
+  },
+  "name": "Frango com Catupiry",
+  "description": "Molho artesanal, mussarela, frango, Catupiry e orégano.",
+  "price": 50,
+  "category": "3",
+  "createdAt": {
+    "$date": "2020-05-26T03:33:42.068Z"
+  },
+  "updatedAt": {
+    "$date": "2020-05-26T03:33:42.068Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5ecc8f7e8773d30004db1b2b"
+  },
+  "name": "Borda Catupiry com Bacon",
+  "description": "Borda Catupiry com Bacon",
+  "price": 13,
+  "category": "1",
+  "createdAt": {
+    "$date": "2020-05-26T03:39:42.397Z"
+  },
+  "updatedAt": {
+    "$date": "2020-07-25T22:43:09.764Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5ecc86db8773d30004db1af1"
+  },
+  "name": "Calabresa Bacon e Ovos",
+  "description": "Molho artesanal, mussarela, calabresa, bacon, ovos e orégano.",
+  "price": 35,
+  "category": "2",
+  "createdAt": {
+    "$date": "2020-05-26T03:02:51.464Z"
+  },
+  "updatedAt": {
+    "$date": "2020-05-26T03:06:03.137Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5ecc86f98773d30004db1af3"
+  },
+  "name": "Calabresa Milho e Ovos",
+  "description": "Molho artesanal, mussarela, calabresa, milho, ovo e orégano.",
+  "price": 33,
+  "category": "2",
+  "createdAt": {
+    "$date": "2020-05-26T03:03:21.651Z"
+  },
+  "updatedAt": {
+    "$date": "2020-05-26T03:06:09.912Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5ecc88cb8773d30004db1b0a"
+  },
+  "name": "5 Queijos",
+  "description": "Molho artesanal, mussarela, provolone, parmesão, gorgonzola, Catupiry e orégano.",
+  "price": 35,
+  "category": "2",
+  "createdAt": {
+    "$date": "2020-05-26T03:11:07.590Z"
+  },
+  "updatedAt": {
+    "$date": "2020-05-26T03:11:07.590Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5ecc8d258773d30004db1b0d"
+  },
+  "name": "Bacon",
+  "description": "Molho artesanal, mussarela, bacon, cebola e orégano.",
+  "price": 48,
+  "category": "3",
+  "createdAt": {
+    "$date": "2020-05-26T03:29:41.220Z"
+  },
+  "updatedAt": {
+    "$date": "2020-05-26T03:29:41.220Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5ecc8d9c8773d30004db1b12"
+  },
+  "name": "Calabresa Especial",
+  "description": "Molho artesanal, mussarela, calabresa, bacon, presunto e orégano.",
+  "price": 50,
+  "category": "3",
+  "createdAt": {
+    "$date": "2020-05-26T03:31:40.633Z"
+  },
+  "updatedAt": {
+    "$date": "2020-05-26T03:31:40.633Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5ecc87cc8773d30004db1afb"
+  },
+  "name": "Frango com Cheddar",
+  "description": "Molho artesanal, mussarela, frango, cheddar e orégano.",
+  "price": 35,
+  "category": "2",
+  "createdAt": {
+    "$date": "2020-05-26T03:06:52.906Z"
+  },
+  "updatedAt": {
+    "$date": "2020-05-26T03:06:52.906Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5ecc89268773d30004db1b0b"
+  },
+  "name": "Alho",
+  "description": "Molho artesanal, mussarela, alho frito e orégano.",
+  "price": 48,
+  "category": "3",
+  "createdAt": {
+    "$date": "2020-05-26T03:12:38.741Z"
+  },
+  "updatedAt": {
+    "$date": "2020-05-26T03:12:38.741Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5ecc8d388773d30004db1b0e"
+  },
+  "name": "Bacon e Ovos",
+  "description": "Molho artesanal, mussarela, bacon, ovo e orégano.",
+  "price": 48,
+  "category": "3",
+  "createdAt": {
+    "$date": "2020-05-26T03:30:00.088Z"
+  },
+  "updatedAt": {
+    "$date": "2020-05-26T03:30:00.088Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5ecc8e628773d30004db1b1e"
+  },
+  "name": "Margherita",
+  "description": "Molho artesanal, mussarela, tomate, parmesão, manjericão e orégano.",
+  "price": 48,
+  "category": "3",
+  "createdAt": {
+    "$date": "2020-05-26T03:34:58.435Z"
+  },
+  "updatedAt": {
+    "$date": "2020-05-26T03:34:58.435Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5ecc8eed8773d30004db1b29"
+  },
+  "name": "5 Queijos",
+  "description": "Molho artesanal, mussarela, provolone, parmesão, gorgonzola, Catupiry e orégano.",
+  "price": 50,
+  "category": "3",
+  "createdAt": {
+    "$date": "2020-05-26T03:37:17.990Z"
+  },
+  "updatedAt": {
+    "$date": "2020-05-26T03:37:17.990Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5ecc7ade2917b400048921f7"
+  },
+  "name": "Atum",
+  "description": "Molho artesanal, mussarela, atum, cebola e orégano.",
+  "price": 35,
+  "category": "2",
+  "createdAt": {
+    "$date": "2020-05-26T02:11:42.121Z"
+  },
+  "updatedAt": {
+    "$date": "2020-05-26T02:13:14.666Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5ecc8dca8773d30004db1b14"
+  },
+  "name": "Capricciosa",
+  "description": "Molho artesanal, mussarela, bacon, champignon, cebola, ovo e orégano.",
+  "price": 50,
+  "category": "3",
+  "createdAt": {
+    "$date": "2020-05-26T03:32:26.693Z"
+  },
+  "updatedAt": {
+    "$date": "2020-05-26T03:32:26.693Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5ecc88a58773d30004db1b07"
+  },
+  "name": "Presunto ao Alho",
+  "description": "Molho artesanal, mussarela, presunto, alho frito e orégano.",
+  "price": 33,
+  "category": "2",
+  "createdAt": {
+    "$date": "2020-05-26T03:10:29.188Z"
+  },
+  "updatedAt": {
+    "$date": "2020-05-26T03:10:29.188Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5ecc8d498773d30004db1b0f"
+  },
+  "name": "Calabacon",
+  "description": "Molho artesanal, mussarela, calabresa, bacon, cebola e orégano.",
+  "price": 50,
+  "category": "3",
+  "createdAt": {
+    "$date": "2020-05-26T03:30:17.392Z"
+  },
+  "updatedAt": {
+    "$date": "2020-05-26T03:30:17.392Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5ecc8de48773d30004db1b16"
+  },
+  "name": "Especial do Chefe",
+  "description": "Molho artesanal, mussarela, pepperoni, calabresa, bacon e orégano.",
+  "price": 50,
+  "category": "3",
+  "createdAt": {
+    "$date": "2020-05-26T03:32:52.772Z"
+  },
+  "updatedAt": {
+    "$date": "2020-05-26T03:32:52.772Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5ecc8e0a8773d30004db1b18"
+  },
+  "name": "Frango com Catupiry e Alho Poró",
+  "description": "Molho artesanal, mussarela, frango, Catupiry, alho poró e orégano.",
+  "price": 50,
+  "category": "3",
+  "createdAt": {
+    "$date": "2020-05-26T03:33:30.310Z"
+  },
+  "updatedAt": {
+    "$date": "2020-05-26T03:33:30.310Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5ecc8e268773d30004db1b1a"
+  },
+  "name": "Frango com Cheddar",
+  "description": "Molho artesanal, mussarela, frango, cheddar e orégano.",
+  "price": 50,
+  "category": "3",
+  "createdAt": {
+    "$date": "2020-05-26T03:33:58.544Z"
+  },
+  "updatedAt": {
+    "$date": "2020-05-26T03:33:58.544Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5ecc8e6d8773d30004db1b1f"
+  },
+  "name": "Mussarela",
+  "description": "Molho artesanal, mussarela e orégano.",
+  "price": 48,
+  "category": "3",
+  "createdAt": {
+    "$date": "2020-05-26T03:35:09.227Z"
+  },
+  "updatedAt": {
+    "$date": "2020-05-26T03:35:09.227Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5ecc8ec88773d30004db1b26"
+  },
+  "name": "Presunto ao Alho",
+  "description": "Molho artesanal, mussarela, presunto, alho frito e orégano.",
+  "price": 48,
+  "category": "3",
+  "createdAt": {
+    "$date": "2020-05-26T03:36:40.820Z"
+  },
+  "updatedAt": {
+    "$date": "2020-05-26T03:36:40.820Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5ecc86e88773d30004db1af2"
+  },
+  "name": "Calabresa Especial",
+  "description": "Molho artesanal, mussarela, calabresa, bacon, presunto e orégano.",
+  "price": 35,
+  "category": "2",
+  "createdAt": {
+    "$date": "2020-05-26T03:03:04.489Z"
+  },
+  "updatedAt": {
+    "$date": "2020-05-26T03:03:04.489Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5ecc880a8773d30004db1afc"
+  },
+  "name": "Ferrara",
+  "description": "Molho artesanal, mussarela, lombo canadense, abacaxi e orégano.",
+  "price": 35,
+  "category": "2",
+  "createdAt": {
+    "$date": "2020-05-26T03:07:54.315Z"
+  },
+  "updatedAt": {
+    "$date": "2020-05-26T03:07:54.315Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5ecc88b08773d30004db1b08"
+  },
+  "name": "Toscana",
+  "description": "Molho artesanal, mussarela, calabresa, tomate, bacon, cebola e orégano.",
+  "price": 35,
+  "category": "2",
+  "createdAt": {
+    "$date": "2020-05-26T03:10:40.841Z"
+  },
+  "updatedAt": {
+    "$date": "2020-05-26T03:10:40.841Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5ecc8ea48773d30004db1b23"
+  },
+  "name": "Pepperoni com Catupiry",
+  "description": "Molho artesanal, mussarela, pepperoni, Catupiry e orégano.",
+  "price": 50,
+  "category": "3",
+  "createdAt": {
+    "$date": "2020-05-26T03:36:04.307Z"
+  },
+  "updatedAt": {
+    "$date": "2020-05-26T03:36:04.307Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5ecc92aa8773d30004db1b39"
+  },
+  "name": "Chocolate com Paçoca",
+  "description": "chocolate e paçoca",
+  "price": 29.9,
+  "category": "5",
+  "createdAt": {
+    "$date": "2020-05-26T03:53:14.281Z"
+  },
+  "updatedAt": {
+    "$date": "2020-05-26T03:53:14.281Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5ecc8fa98773d30004db1b2e"
+  },
+  "name": "Coca-Cola 1,5L",
+  "description": "Coca-Cola 1,5L",
+  "price": 9,
+  "category": "6",
+  "createdAt": {
+    "$date": "2020-05-26T03:40:25.080Z"
+  },
+  "updatedAt": {
+    "$date": "2020-07-16T22:23:53.575Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5ecc92558773d30004db1b34"
+  },
+  "name": "Romeu e Julieta",
+  "description": "goiabada e catupiry",
+  "price": 29.9,
+  "category": "5",
+  "createdAt": {
+    "$date": "2020-05-26T03:51:49.196Z"
+  },
+  "updatedAt": {
+    "$date": "2020-05-26T03:51:49.196Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5ecc91da8773d30004db1b31"
+  },
+  "name": "Banana com Canela",
+  "description": "mussarela, banana, canela, açúcar e leite condensado",
+  "price": 29.9,
+  "category": "5",
+  "createdAt": {
+    "$date": "2020-05-26T03:49:46.911Z"
+  },
+  "updatedAt": {
+    "$date": "2020-05-26T03:50:14.545Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5ecc92668773d30004db1b35"
+  },
+  "name": "Chocolate com Morango",
+  "description": "chocolate e morango",
+  "price": 29.9,
+  "category": "5",
+  "createdAt": {
+    "$date": "2020-05-26T03:52:06.269Z"
+  },
+  "updatedAt": {
+    "$date": "2020-05-26T03:52:06.269Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5ecc92128773d30004db1b32"
+  },
+  "name": "Brigadeiro",
+  "description": "chocolate e granulado",
+  "price": 29.9,
+  "category": "5",
+  "createdAt": {
+    "$date": "2020-05-26T03:50:42.053Z"
+  },
+  "updatedAt": {
+    "$date": "2020-05-26T03:50:42.053Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5ecc8f8f8773d30004db1b2d"
+  },
+  "name": "Borda Cheddar com Bacon",
+  "description": "Borda Cheddar com Bacon",
+  "price": 13,
+  "category": "1",
+  "createdAt": {
+    "$date": "2020-05-26T03:39:59.663Z"
+  },
+  "updatedAt": {
+    "$date": "2020-07-25T22:43:23.515Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5eccf5f3d3ae520004ef4307"
+  },
+  "name": "Guaraná Antártica 1,5L",
+  "description": "Guaraná Antártica 1,5L ",
+  "price": 0,
+  "category": "6",
+  "createdAt": {
+    "$date": "2020-05-26T10:56:51.157Z"
+  },
+  "updatedAt": {
+    "$date": "2020-05-26T10:56:51.157Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5ecc8fcb8773d30004db1b30"
+  },
+  "name": "Guaraná Antártica 1,5L",
+  "description": "Guaraná Antártica 1,5L",
+  "price": 9,
+  "category": "6",
+  "createdAt": {
+    "$date": "2020-05-26T03:40:59.262Z"
+  },
+  "updatedAt": {
+    "$date": "2020-07-22T22:59:47.356Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5ecc92ba8773d30004db1b3a"
+  },
+  "name": "Chocolate com Banana",
+  "description": "chocolate e banana",
+  "price": 29.9,
+  "category": "5",
+  "createdAt": {
+    "$date": "2020-05-26T03:53:30.240Z"
+  },
+  "updatedAt": {
+    "$date": "2020-05-26T03:53:41.363Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5ecc8f878773d30004db1b2c"
+  },
+  "name": "Borda Cheddar",
+  "description": "Borda Cheddar",
+  "price": 10,
+  "category": "1",
+  "createdAt": {
+    "$date": "2020-05-26T03:39:51.088Z"
+  },
+  "updatedAt": {
+    "$date": "2020-07-25T22:43:15.298Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5eccf58fd3ae520004ef4306"
+  },
+  "name": "Coca-Cola 1,5L",
+  "description": "Coca-Cola 1,5L",
+  "price": 0,
+  "category": "6",
+  "createdAt": {
+    "$date": "2020-05-26T10:55:11.559Z"
+  },
+  "updatedAt": {
+    "$date": "2020-05-26T10:55:11.559Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5ecc92df8773d30004db1b3b"
+  },
+  "name": "Doce de Leite com Banana",
+  "description": "doce de leite e banana",
+  "price": 29.9,
+  "category": "5",
+  "createdAt": {
+    "$date": "2020-05-26T03:54:07.731Z"
+  },
+  "updatedAt": {
+    "$date": "2020-05-26T03:54:07.731Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5ecc92858773d30004db1b37"
+  },
+  "name": "Doce de Leite",
+  "description": "doce de leite",
+  "price": 29.9,
+  "category": "5",
+  "createdAt": {
+    "$date": "2020-05-26T03:52:37.811Z"
+  },
+  "updatedAt": {
+    "$date": "2020-05-26T03:52:37.811Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5ecc92988773d30004db1b38"
+  },
+  "name": "Doce de Leite com Paçoca",
+  "description": "doce de leite e paçoca",
+  "price": 29.9,
+  "category": "5",
+  "createdAt": {
+    "$date": "2020-05-26T03:52:56.089Z"
+  },
+  "updatedAt": {
+    "$date": "2020-05-26T03:52:56.089Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5ecc92208773d30004db1b33"
+  },
+  "name": "Prestígio",
+  "description": "chocolate e coco ralado",
+  "price": 29.9,
+  "category": "5",
+  "createdAt": {
+    "$date": "2020-05-26T03:50:56.884Z"
+  },
+  "updatedAt": {
+    "$date": "2020-05-26T03:51:11.479Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5ecc92778773d30004db1b36"
+  },
+  "name": "Chocolate com Confete",
+  "description": "chocolate e confete",
+  "price": 29.9,
+  "category": "5",
+  "createdAt": {
+    "$date": "2020-05-26T03:52:23.576Z"
+  },
+  "updatedAt": {
+    "$date": "2020-05-26T03:52:23.576Z"
+  },
+  "__v": 0
+}]

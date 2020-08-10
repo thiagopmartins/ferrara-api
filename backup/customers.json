@@ -1,0 +1,1059 @@
+[{
+  "_id": {
+    "$oid": "5e64f9fb7770a50004cb49d0"
+  },
+  "phone": "49985047724",
+  "name": "Thiago Pereira Martins",
+  "deliveryTax": 10,
+  "address": "Rua Governador Jorge Lacerda",
+  "lot": "A",
+  "block": "B",
+  "aptoBlock": "C",
+  "apto": "07",
+  "district": "Centro 1",
+  "number": 187,
+  "referencePoint": "Em cima do laborátorio saldanha",
+  "dateOfBirth": "2020-06-11",
+  "createdAt": {
+    "$date": "2020-03-08T13:58:19.187Z"
+  },
+  "updatedAt": {
+    "$date": "2020-06-12T21:01:49.728Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5ecc388c378c94000453f34b"
+  },
+  "phone": "21990929784",
+  "name": "João Vinicius",
+  "deliveryTax": 4,
+  "address": "Travessa Domingos Pereira dos Santos",
+  "lot": null,
+  "block": null,
+  "aptoBlock": null,
+  "apto": null,
+  "district": "Cosmos - Vila do Céu",
+  "number": 10,
+  "referencePoint": "Próximo ao bar do Sr. Antônio.",
+  "dateOfBirth": "1999-11-03",
+  "createdAt": {
+    "$date": "2020-05-25T21:28:44.918Z"
+  },
+  "updatedAt": {
+    "$date": "2020-07-22T23:08:03.118Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5eeab73b377aa00004eb4198"
+  },
+  "phone": "21974680560",
+  "name": "Luana Santana",
+  "deliveryTax": 3,
+  "address": "rua Afonso de Carvalho",
+  "lot": null,
+  "block": null,
+  "aptoBlock": null,
+  "apto": null,
+  "district": "Cosmos",
+  "number": 47,
+  "referencePoint": "esquina com rua Castelo Branco",
+  "dateOfBirth": "1997-04-23",
+  "createdAt": {
+    "$date": "2020-06-18T00:37:15.795Z"
+  },
+  "updatedAt": {
+    "$date": "2020-07-02T21:51:33.320Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5eeace1755eaf300046c872d"
+  },
+  "phone": "21967860864",
+  "name": "Marcele",
+  "deliveryTax": 6,
+  "address": "Rua Baianopólis",
+  "lot": "14",
+  "block": "85",
+  "aptoBlock": null,
+  "apto": null,
+  "district": "7 de Abril",
+  "number": null,
+  "referencePoint": "antiga rua 25 (fundos)",
+  "dateOfBirth": "1979-03-25",
+  "createdAt": {
+    "$date": "2020-06-18T02:14:47.393Z"
+  },
+  "updatedAt": {
+    "$date": "2020-07-02T21:51:46.391Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5eeace6d55eaf300046c872e"
+  },
+  "phone": "21971760827",
+  "name": "Gabriel dos Santos",
+  "deliveryTax": 3,
+  "address": "Rua Monteiro Lobato",
+  "lot": null,
+  "block": null,
+  "aptoBlock": null,
+  "apto": null,
+  "district": "cosmos",
+  "number": 175,
+  "referencePoint": "Rua do Rafas bar",
+  "dateOfBirth": "1998-12-04",
+  "createdAt": {
+    "$date": "2020-06-18T02:16:13.033Z"
+  },
+  "updatedAt": {
+    "$date": "2020-07-02T21:51:53.298Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5eeaceb755eaf300046c872f"
+  },
+  "phone": "21985083606",
+  "name": "Alan Teixeira",
+  "deliveryTax": 3,
+  "address": "Rua Manoel Lourenço Neves",
+  "lot": "1",
+  "block": "16",
+  "aptoBlock": null,
+  "apto": null,
+  "district": "cosmos",
+  "number": null,
+  "referencePoint": null,
+  "dateOfBirth": "1992-08-20",
+  "createdAt": {
+    "$date": "2020-06-18T02:17:27.378Z"
+  },
+  "updatedAt": {
+    "$date": "2020-07-02T21:51:59.825Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5eeacff455eaf300046c8733"
+  },
+  "phone": "21965796239",
+  "name": "Victor Gomes",
+  "deliveryTax": 3,
+  "address": "Rua Afonso de Carvalho",
+  "lot": null,
+  "block": null,
+  "aptoBlock": null,
+  "apto": null,
+  "district": "Cosmos",
+  "number": 48,
+  "referencePoint": "Em frente a Academia Silva",
+  "dateOfBirth": "1996-10-06",
+  "createdAt": {
+    "$date": "2020-06-18T02:22:44.410Z"
+  },
+  "updatedAt": {
+    "$date": "2020-07-02T21:52:17.409Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5ef91b39474c670004dae851"
+  },
+  "phone": "21965644944",
+  "name": "Flaviane Cardoso",
+  "deliveryTax": 3,
+  "address": "Avenida Pedro Geraldo de Almeida",
+  "lot": "12",
+  "block": "D",
+  "aptoBlock": null,
+  "apto": null,
+  "district": "Campo Grande",
+  "number": null,
+  "referencePoint": "Próximo a Praça do Campo Belo. Na rua do Valão.",
+  "dateOfBirth": "1989-02-18",
+  "createdAt": {
+    "$date": "2020-06-28T22:35:37.248Z"
+  },
+  "updatedAt": {
+    "$date": "2020-06-28T22:35:37.248Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5efe6106e45e530004d187bd"
+  },
+  "phone": "21960140619",
+  "name": "Karlla",
+  "deliveryTax": 3,
+  "address": "Rua Dener",
+  "lot": null,
+  "block": null,
+  "aptoBlock": null,
+  "apto": null,
+  "district": "Campo Grande",
+  "number": 36,
+  "referencePoint": null,
+  "dateOfBirth": null,
+  "createdAt": {
+    "$date": "2020-07-02T22:34:46.034Z"
+  },
+  "updatedAt": {
+    "$date": "2020-07-02T22:34:46.034Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5efe632be45e530004d187be"
+  },
+  "phone": "21970013049",
+  "name": "Thais",
+  "deliveryTax": 3,
+  "address": "Rua Eugênio Neumann",
+  "lot": null,
+  "block": null,
+  "aptoBlock": null,
+  "apto": null,
+  "district": "São Jorge",
+  "number": 1,
+  "referencePoint": "Ao lado da igreja batista lírio dos vales.",
+  "dateOfBirth": null,
+  "createdAt": {
+    "$date": "2020-07-02T22:43:55.120Z"
+  },
+  "updatedAt": {
+    "$date": "2020-07-02T22:43:55.120Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5efe6373e45e530004d187bf"
+  },
+  "phone": "21971536799",
+  "name": "Cauã",
+  "deliveryTax": 3,
+  "address": "Rua Osvaldo Rock Pena",
+  "lot": null,
+  "block": null,
+  "aptoBlock": null,
+  "apto": null,
+  "district": "Santa Margarida",
+  "number": 50,
+  "referencePoint": null,
+  "dateOfBirth": null,
+  "createdAt": {
+    "$date": "2020-07-02T22:45:07.003Z"
+  },
+  "updatedAt": {
+    "$date": "2020-07-02T22:45:07.003Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5f0fd0487aa0650004a56e97"
+  },
+  "phone": "21983318584",
+  "name": "Ana",
+  "deliveryTax": 3,
+  "address": "Estrada Dicurana. Sítio Silva Gomes.",
+  "lot": null,
+  "block": "3",
+  "aptoBlock": null,
+  "apto": null,
+  "district": "Vilar Carioca",
+  "number": null,
+  "referencePoint": "Dentro do Sítio. Rua Projetada E. Casa 4",
+  "dateOfBirth": null,
+  "createdAt": {
+    "$date": "2020-07-16T03:58:00.500Z"
+  },
+  "updatedAt": {
+    "$date": "2020-07-16T03:58:00.500Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5f0fd09f7aa0650004a56e98"
+  },
+  "phone": "21964239895",
+  "name": "Leo",
+  "deliveryTax": 3,
+  "address": "Rua 8.",
+  "lot": "10",
+  "block": "141",
+  "aptoBlock": null,
+  "apto": null,
+  "district": "Santa Margarida.",
+  "number": null,
+  "referencePoint": "Rua do Bar do Léo.",
+  "dateOfBirth": null,
+  "createdAt": {
+    "$date": "2020-07-16T03:59:27.534Z"
+  },
+  "updatedAt": {
+    "$date": "2020-07-16T03:59:27.534Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5f0fd1727aa0650004a56e99"
+  },
+  "phone": "97979810852",
+  "name": "Higor",
+  "deliveryTax": 6,
+  "address": "Rua Paçuaré.",
+  "lot": "15",
+  "block": "O",
+  "aptoBlock": null,
+  "apto": null,
+  "district": "Gouveia",
+  "number": 735,
+  "referencePoint": "Condomínio Ana Lúcia",
+  "dateOfBirth": null,
+  "createdAt": {
+    "$date": "2020-07-16T04:02:58.257Z"
+  },
+  "updatedAt": {
+    "$date": "2020-07-30T23:32:15.888Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5f0fd1c37aa0650004a56e9a"
+  },
+  "phone": "21985861728",
+  "name": "André Gomes",
+  "deliveryTax": 3,
+  "address": "Rua dos Caquizeiros.",
+  "lot": null,
+  "block": null,
+  "aptoBlock": "1",
+  "apto": "503",
+  "district": "Cosmos",
+  "number": 365,
+  "referencePoint": "Condomínio Vivendas dos Colibris.",
+  "dateOfBirth": null,
+  "createdAt": {
+    "$date": "2020-07-16T04:04:19.701Z"
+  },
+  "updatedAt": {
+    "$date": "2020-07-16T04:04:19.701Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5f0fd2017aa0650004a56e9b"
+  },
+  "phone": "21969984023",
+  "name": "Felipe",
+  "deliveryTax": 3,
+  "address": "Rua Lebreton.",
+  "lot": null,
+  "block": null,
+  "aptoBlock": null,
+  "apto": null,
+  "district": "Campo Grande",
+  "number": 120,
+  "referencePoint": "Fundos.",
+  "dateOfBirth": null,
+  "createdAt": {
+    "$date": "2020-07-16T04:05:21.777Z"
+  },
+  "updatedAt": {
+    "$date": "2020-07-16T04:05:21.777Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5f0fd2787aa0650004a56e9c"
+  },
+  "phone": "21970179459",
+  "name": "Juliana",
+  "deliveryTax": 3,
+  "address": "Rua Armando Carneiro Monteiro.",
+  "lot": "5",
+  "block": "5",
+  "aptoBlock": null,
+  "apto": null,
+  "district": "Cosmos.",
+  "number": null,
+  "referencePoint": null,
+  "dateOfBirth": null,
+  "createdAt": {
+    "$date": "2020-07-16T04:07:20.064Z"
+  },
+  "updatedAt": {
+    "$date": "2020-07-16T04:07:20.064Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5f0fd2ce7aa0650004a56e9d"
+  },
+  "phone": "21987744506",
+  "name": "Bruna",
+  "deliveryTax": 3,
+  "address": "Rua das Maçãs.",
+  "lot": null,
+  "block": null,
+  "aptoBlock": null,
+  "apto": "101",
+  "district": "Cosmos",
+  "number": 141,
+  "referencePoint": "Cândido.",
+  "dateOfBirth": null,
+  "createdAt": {
+    "$date": "2020-07-16T04:08:46.761Z"
+  },
+  "updatedAt": {
+    "$date": "2020-07-16T04:08:46.761Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5f0fd30d7aa0650004a56e9e"
+  },
+  "phone": "21974947310",
+  "name": "Hélio",
+  "deliveryTax": 3,
+  "address": "Rua Nova.",
+  "lot": null,
+  "block": null,
+  "aptoBlock": null,
+  "apto": null,
+  "district": "Cosmos.",
+  "number": 15,
+  "referencePoint": "Próximo a estação de Cosmos.",
+  "dateOfBirth": null,
+  "createdAt": {
+    "$date": "2020-07-16T04:09:49.044Z"
+  },
+  "updatedAt": {
+    "$date": "2020-07-16T04:09:49.044Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5f0fd34c7aa0650004a56e9f"
+  },
+  "phone": "21971307787",
+  "name": "Lucas Nogueira",
+  "deliveryTax": 3,
+  "address": "Travessa Santa Rita",
+  "lot": null,
+  "block": null,
+  "aptoBlock": null,
+  "apto": null,
+  "district": "Cosmos.",
+  "number": 34,
+  "referencePoint": "Vila do Céu.",
+  "dateOfBirth": null,
+  "createdAt": {
+    "$date": "2020-07-16T04:10:52.955Z"
+  },
+  "updatedAt": {
+    "$date": "2020-07-16T04:10:52.955Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5f0fd3967aa0650004a56ea0"
+  },
+  "phone": "21975660903",
+  "name": "Leila",
+  "deliveryTax": 4,
+  "address": "Rua Pocinhos.",
+  "lot": "21",
+  "block": "131",
+  "aptoBlock": null,
+  "apto": null,
+  "district": "Santa Margarida.",
+  "number": null,
+  "referencePoint": "Esquina com a Tutóia.",
+  "dateOfBirth": null,
+  "createdAt": {
+    "$date": "2020-07-16T04:12:06.922Z"
+  },
+  "updatedAt": {
+    "$date": "2020-07-25T00:37:36.955Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5f0fd3c87aa0650004a56ea1"
+  },
+  "phone": "21964273387",
+  "name": "Flávio",
+  "deliveryTax": 3,
+  "address": "Rua Getúlio Vargas.",
+  "lot": null,
+  "block": null,
+  "aptoBlock": null,
+  "apto": null,
+  "district": "Cosmos",
+  "number": 9,
+  "referencePoint": "Vila do Céu.",
+  "dateOfBirth": null,
+  "createdAt": {
+    "$date": "2020-07-16T04:12:56.740Z"
+  },
+  "updatedAt": {
+    "$date": "2020-07-16T04:12:56.740Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5f0fd40a7aa0650004a56ea2"
+  },
+  "phone": "21974637286",
+  "name": "Diego",
+  "deliveryTax": 3,
+  "address": "Rua Marcelo Nunes Alencar.",
+  "lot": null,
+  "block": null,
+  "aptoBlock": null,
+  "apto": null,
+  "district": "Cosmos.",
+  "number": 20,
+  "referencePoint": "Próximo a ponte do Giló.",
+  "dateOfBirth": null,
+  "createdAt": {
+    "$date": "2020-07-16T04:14:02.936Z"
+  },
+  "updatedAt": {
+    "$date": "2020-07-16T04:14:02.936Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5f10d42e0f2ca9000474772e"
+  },
+  "phone": "21982825925",
+  "name": "Pablo",
+  "deliveryTax": 3,
+  "address": "Rua Oscar Guimarães",
+  "lot": "10",
+  "block": "C",
+  "aptoBlock": null,
+  "apto": null,
+  "district": "Inhoaíba",
+  "number": null,
+  "referencePoint": "Casa 2",
+  "dateOfBirth": null,
+  "createdAt": {
+    "$date": "2020-07-16T22:26:54.238Z"
+  },
+  "updatedAt": {
+    "$date": "2020-07-16T22:26:54.238Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5f12778dd9e58600042c01ab"
+  },
+  "phone": "21991650693",
+  "name": "Alan",
+  "deliveryTax": 3,
+  "address": "Rua Itapaci",
+  "lot": null,
+  "block": null,
+  "aptoBlock": null,
+  "apto": null,
+  "district": "Cosmos",
+  "number": 771,
+  "referencePoint": "Penúltima casa do lado direito. Subindo sentido Mergulhão.",
+  "dateOfBirth": null,
+  "createdAt": {
+    "$date": "2020-07-18T04:16:13.615Z"
+  },
+  "updatedAt": {
+    "$date": "2020-07-18T04:16:13.615Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5f127823d9e58600042c01ac"
+  },
+  "phone": "21964391715",
+  "name": "Fabiana",
+  "deliveryTax": 6,
+  "address": "Rua Onze",
+  "lot": null,
+  "block": null,
+  "aptoBlock": null,
+  "apto": null,
+  "district": "Paciência",
+  "number": 31,
+  "referencePoint": "Vila Auzira 1. Casa de 3 Andares.",
+  "dateOfBirth": null,
+  "createdAt": {
+    "$date": "2020-07-18T04:18:43.454Z"
+  },
+  "updatedAt": {
+    "$date": "2020-07-18T04:18:43.454Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5f1278b0d9e58600042c01ad"
+  },
+  "phone": "21964641526",
+  "name": "André",
+  "deliveryTax": 3,
+  "address": "Rua Moranga.",
+  "lot": null,
+  "block": null,
+  "aptoBlock": "10C",
+  "apto": "205",
+  "district": "São Jorge",
+  "number": 121,
+  "referencePoint": null,
+  "dateOfBirth": null,
+  "createdAt": {
+    "$date": "2020-07-18T04:21:04.203Z"
+  },
+  "updatedAt": {
+    "$date": "2020-07-18T04:21:04.203Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5f127931d9e58600042c01ae"
+  },
+  "phone": "21967146354",
+  "name": "Vinicius",
+  "deliveryTax": 3,
+  "address": "Rua Dois",
+  "lot": null,
+  "block": null,
+  "aptoBlock": null,
+  "apto": null,
+  "district": "Conjunto da Telerj - Cosmos",
+  "number": 60,
+  "referencePoint": "Casa 1",
+  "dateOfBirth": null,
+  "createdAt": {
+    "$date": "2020-07-18T04:23:13.162Z"
+  },
+  "updatedAt": {
+    "$date": "2020-07-18T04:23:13.162Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5f13804723e4f3000423ede8"
+  },
+  "phone": "21989805191",
+  "name": "Cristiane",
+  "deliveryTax": 3,
+  "address": "Rua Acauã",
+  "lot": null,
+  "block": null,
+  "aptoBlock": null,
+  "apto": null,
+  "district": "Cosmos",
+  "number": 1005,
+  "referencePoint": null,
+  "dateOfBirth": null,
+  "createdAt": {
+    "$date": "2020-07-18T23:05:43.983Z"
+  },
+  "updatedAt": {
+    "$date": "2020-07-18T23:05:43.983Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5f1b63315345320004152ef4"
+  },
+  "phone": "21965469961",
+  "name": "Maria Luiza",
+  "deliveryTax": 4,
+  "address": "Avenida Cesário de Melo",
+  "lot": null,
+  "block": null,
+  "aptoBlock": "6",
+  "apto": "207",
+  "district": "Campo Grande",
+  "number": 5300,
+  "referencePoint": "Condomínio Boulevard Carioca. Ao lado do Costa azul.",
+  "dateOfBirth": null,
+  "createdAt": {
+    "$date": "2020-07-24T22:39:45.420Z"
+  },
+  "updatedAt": {
+    "$date": "2020-07-24T22:39:45.420Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5f1b78cec35fd30004d803fd"
+  },
+  "phone": "21967035392",
+  "name": "Cida",
+  "deliveryTax": 4,
+  "address": "Rua Doutor Renato Vasconcelos.",
+  "lot": null,
+  "block": null,
+  "aptoBlock": null,
+  "apto": null,
+  "district": "Cosmos",
+  "number": 36,
+  "referencePoint": "Vila do Céu.",
+  "dateOfBirth": null,
+  "createdAt": {
+    "$date": "2020-07-25T00:11:58.514Z"
+  },
+  "updatedAt": {
+    "$date": "2020-07-25T00:11:58.514Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5f1b956877265500046edb44"
+  },
+  "phone": "21983936688",
+  "name": "João Ricardo",
+  "deliveryTax": 4,
+  "address": "Rua Avaré",
+  "lot": null,
+  "block": null,
+  "aptoBlock": "1",
+  "apto": "704",
+  "district": "Campo Grande",
+  "number": 700,
+  "referencePoint": "Condomínio em frente ao BK e MC da estrada do Monteiro.",
+  "dateOfBirth": null,
+  "createdAt": {
+    "$date": "2020-07-25T02:14:00.288Z"
+  },
+  "updatedAt": {
+    "$date": "2020-07-25T02:14:00.288Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5f1cb20945d7850004d2b97d"
+  },
+  "phone": "21991005980",
+  "name": "Jeane",
+  "deliveryTax": 4,
+  "address": "Rua do Sítio.",
+  "lot": null,
+  "block": null,
+  "aptoBlock": null,
+  "apto": null,
+  "district": "Cosmos",
+  "number": 14,
+  "referencePoint": "Próximo a Academia UrbanFit. Indo pela Cesário de Melo.",
+  "dateOfBirth": null,
+  "createdAt": {
+    "$date": "2020-07-25T22:28:25.667Z"
+  },
+  "updatedAt": {
+    "$date": "2020-07-25T22:28:25.667Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5f1cb43e45d7850004d2b97e"
+  },
+  "phone": "21994239398",
+  "name": "Raabe",
+  "deliveryTax": 4,
+  "address": "Rua Paçuaré",
+  "lot": null,
+  "block": null,
+  "aptoBlock": "23",
+  "apto": "404",
+  "district": "Gouveia",
+  "number": 991,
+  "referencePoint": "´Condomínio Paçuaré 1.",
+  "dateOfBirth": null,
+  "createdAt": {
+    "$date": "2020-07-25T22:37:50.999Z"
+  },
+  "updatedAt": {
+    "$date": "2020-07-25T22:37:50.999Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5f1cb50645d7850004d2b97f"
+  },
+  "phone": "21990473141",
+  "name": "Pedro",
+  "deliveryTax": 4,
+  "address": "Rua São Sebastião.",
+  "lot": null,
+  "block": null,
+  "aptoBlock": null,
+  "apto": null,
+  "district": "Inhoaíba",
+  "number": 54,
+  "referencePoint": null,
+  "dateOfBirth": null,
+  "createdAt": {
+    "$date": "2020-07-25T22:41:10.636Z"
+  },
+  "updatedAt": {
+    "$date": "2020-07-25T22:41:10.636Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5f1cc7ff939dfb0004feeb8a"
+  },
+  "phone": "21976999597",
+  "name": "Barbara",
+  "deliveryTax": 4,
+  "address": "Caminho do Furado. Rua C",
+  "lot": null,
+  "block": null,
+  "aptoBlock": null,
+  "apto": null,
+  "district": "Paciência",
+  "number": 23,
+  "referencePoint": "Padaria de Grade na Esquina da Rua.",
+  "dateOfBirth": null,
+  "createdAt": {
+    "$date": "2020-07-26T00:02:07.019Z"
+  },
+  "updatedAt": {
+    "$date": "2020-07-26T00:02:07.019Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5f1e021a60d17d0004d2bf03"
+  },
+  "phone": "21994312668",
+  "name": "Danilo",
+  "deliveryTax": 4,
+  "address": "Rua Afonso de Carvalho",
+  "lot": null,
+  "block": null,
+  "aptoBlock": null,
+  "apto": null,
+  "district": "Cosmos.",
+  "number": 76,
+  "referencePoint": "Em frente ao Hortifruti",
+  "dateOfBirth": null,
+  "createdAt": {
+    "$date": "2020-07-26T22:22:18.819Z"
+  },
+  "updatedAt": {
+    "$date": "2020-07-26T22:22:18.819Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5f1e030a60d17d0004d2bf04"
+  },
+  "phone": "21976003445",
+  "name": "Eduardo",
+  "deliveryTax": 4,
+  "address": "Rua 9.",
+  "lot": null,
+  "block": "12",
+  "aptoBlock": null,
+  "apto": null,
+  "district": "Santa Margarida.",
+  "number": 5,
+  "referencePoint": "Perto do bar do Leo PremiuM",
+  "dateOfBirth": null,
+  "createdAt": {
+    "$date": "2020-07-26T22:26:18.576Z"
+  },
+  "updatedAt": {
+    "$date": "2020-07-26T22:26:18.576Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5f1e17e9730b820004e0f35e"
+  },
+  "phone": "21964080419",
+  "name": "Leo Werneck",
+  "deliveryTax": 4,
+  "address": "Rua Professor Paulo Ribeiro",
+  "lot": null,
+  "block": null,
+  "aptoBlock": "5",
+  "apto": "202",
+  "district": "Inhoaíba",
+  "number": 520,
+  "referencePoint": "Condomínio Splash",
+  "dateOfBirth": null,
+  "createdAt": {
+    "$date": "2020-07-26T23:55:21.492Z"
+  },
+  "updatedAt": {
+    "$date": "2020-07-26T23:57:09.608Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5f1e1b22730b820004e0f35f"
+  },
+  "phone": "21969957702",
+  "name": "Henry",
+  "deliveryTax": 4,
+  "address": "Rua 3.",
+  "lot": "5",
+  "block": null,
+  "aptoBlock": null,
+  "apto": null,
+  "district": "Inhoaíba",
+  "number": 2,
+  "referencePoint": "Conjunto Icurana ll. Lote 5. Casa 2.",
+  "dateOfBirth": null,
+  "createdAt": {
+    "$date": "2020-07-27T00:09:06.439Z"
+  },
+  "updatedAt": {
+    "$date": "2020-07-27T00:09:06.439Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5f1f5155e5135f00040e48cc"
+  },
+  "phone": "11945019082",
+  "name": "Felipe",
+  "deliveryTax": 6,
+  "address": "Estrada Santa Eugênia.",
+  "lot": null,
+  "block": null,
+  "aptoBlock": "12",
+  "apto": "204",
+  "district": "Paciência - 7 de Abril",
+  "number": 3100,
+  "referencePoint": "Condomínio Santiago 1.",
+  "dateOfBirth": null,
+  "createdAt": {
+    "$date": "2020-07-27T22:12:37.309Z"
+  },
+  "updatedAt": {
+    "$date": "2020-07-27T22:12:37.309Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5f234377473ea4000485e4b2"
+  },
+  "phone": "21968253657",
+  "name": "Tatiane",
+  "deliveryTax": 4,
+  "address": "Rua Afonso de Carvalho.",
+  "lot": null,
+  "block": null,
+  "aptoBlock": null,
+  "apto": null,
+  "district": "Cosmos",
+  "number": 33,
+  "referencePoint": "Próximo a Academia Silva. Ao lado do PL Destilados.",
+  "dateOfBirth": null,
+  "createdAt": {
+    "$date": "2020-07-30T22:02:31.600Z"
+  },
+  "updatedAt": {
+    "$date": "2020-07-30T22:02:31.600Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5f234cae76833e000485aced"
+  },
+  "phone": "21960166961",
+  "name": "Duzinho",
+  "deliveryTax": 4,
+  "address": "Rua Ivatuva.",
+  "lot": "19",
+  "block": "92",
+  "aptoBlock": null,
+  "apto": null,
+  "district": "Santa Margarida.",
+  "number": null,
+  "referencePoint": "Perto do Mercado Rede Economia na Estrada do Campinho.",
+  "dateOfBirth": null,
+  "createdAt": {
+    "$date": "2020-07-30T22:41:50.247Z"
+  },
+  "updatedAt": {
+    "$date": "2020-07-30T23:08:14.329Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5f2352bb76833e000485acee"
+  },
+  "phone": "21979426207",
+  "name": "Eleticia",
+  "deliveryTax": 6,
+  "address": "Estrada Santa Eugênia.",
+  "lot": null,
+  "block": null,
+  "aptoBlock": "12",
+  "apto": "204",
+  "district": "7 de Abril",
+  "number": 3100,
+  "referencePoint": "Condomínio Santiago 1",
+  "dateOfBirth": null,
+  "createdAt": {
+    "$date": "2020-07-30T23:07:39.252Z"
+  },
+  "updatedAt": {
+    "$date": "2020-07-30T23:07:39.252Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5f236284e7becf0004e0c0f4"
+  },
+  "phone": "21983954309",
+  "name": "Jan",
+  "deliveryTax": 4,
+  "address": "Estrada Iaraquã",
+  "lot": null,
+  "block": null,
+  "aptoBlock": "24",
+  "apto": "103",
+  "district": "Campo Grande",
+  "number": 620,
+  "referencePoint": null,
+  "dateOfBirth": null,
+  "createdAt": {
+    "$date": "2020-07-31T00:15:00.871Z"
+  },
+  "updatedAt": {
+    "$date": "2020-07-31T00:15:00.871Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5f2364dde7becf0004e0c0f5"
+  },
+  "phone": "21983023602",
+  "name": "Alexandra",
+  "deliveryTax": 6,
+  "address": "Estrada de Paciência. 1735",
+  "lot": null,
+  "block": null,
+  "aptoBlock": null,
+  "apto": null,
+  "district": "Palmares",
+  "number": 119,
+  "referencePoint": "De esquina com Estrada do Campinho.",
+  "dateOfBirth": null,
+  "createdAt": {
+    "$date": "2020-07-31T00:25:01.088Z"
+  },
+  "updatedAt": {
+    "$date": "2020-07-31T00:25:01.088Z"
+  },
+  "__v": 0
+}]

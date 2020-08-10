@@ -23,6 +23,10 @@ const DiscountSchema = new Schema(
     partner: {
       type: String,
     },
+    totalUse: {
+      type: Number,
+      default: 0,
+    },
   },
   {
     timestamps: true,

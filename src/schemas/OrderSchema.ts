@@ -6,19 +6,18 @@ type OrderType = Order & Document;
 
 const OrderSchema = new Schema(
   {
-    customer: {
-      type: mongoose.Schema.Types.ObjectId,
-      ref: 'Customer'
-    },
-    produtcs: [
-      { type: mongoose.Schema.Types.ObjectId, ref: 'Product' }
-    ],
+    customer: {},
+    productsOfOrder: [{}],
+    discount: { type: mongoose.Schema.Types.ObjectId, ref: 'Discount' },
     price: {
-      type: Number
+      type: Number,
     },
     status: {
-      type: String
-    }
+      type: String,
+    },
+    finishedAt: {
+      type: Date,
+    },
   },
   {
     timestamps: true,

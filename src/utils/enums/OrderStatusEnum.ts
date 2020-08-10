@@ -1,5 +1,6 @@
 export enum OrderStatusEnum {
-  production = 0,
-  finished = 1,
-  canceled = 2
+  production = '0',
+  sending = '1',
+  finished = '2',
+  canceled = '3',
 }

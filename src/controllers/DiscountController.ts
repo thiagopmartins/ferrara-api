@@ -54,9 +54,13 @@ class DiscountController {
 
   public async index(req: RequestCustom, res: Response): Promise<Response> {
     const discounts = await DiscountSchema.find({});
-    return res.json(
-      discounts.filter(m => moment(Date.now()).isSameOrBefore(m.expireDate)),
-    );
+    const date = moment(Date.now()).subtract('days', 1);
+    return res.json(discounts.filter(m => date.isSameOrBefore(m.expireDate)));
+  }
+
+  public async all(req: RequestCustom, res: Response): Promise<Response> {
+    const discounts = await DiscountSchema.find();
+    return res.json(discounts);
   }
 
   public async show(req: RequestCustom, res: Response): Promise<Response> {

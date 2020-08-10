@@ -4,17 +4,16 @@ import request from 'supertest';
 import MongoMock from '@utils/tests/MongoMock';
 import CustomerSchema from '@schemas/CustomerSchema';
 import { Customer } from '@interfaces/Customer';
-import app from '../app';
 import OrderSchema from '@schemas/OrderSchema';
 import { PermissionEnum } from '@utils/enums/PermissionEnum';
 import { Order } from '@interfaces/Order';
 import { Product } from '@interfaces/Product';
-import ProductController from './ProductController';
 import ProductSchema from '@schemas/ProductSchema';
 import { CategoryEnum } from '@utils/enums/CategoryEnum';
+import ProductController from './ProductController';
+import app from '../app';
 
 describe('Customer tests', () => {
-
   let token: string;
   let order: Order;
   let customerId: string;
@@ -54,28 +53,28 @@ describe('Customer tests', () => {
         category: CategoryEnum.pizzaDoce30,
         description: 'Descricao',
         name: 'produto1',
-        price: +Math.random().toFixed(2)
+        price: +Math.random().toFixed(2),
       },
       {
         category: CategoryEnum.pizzaDoce30,
         description: 'Descricao',
         name: 'produto2',
-        price: +Math.random().toFixed(2)
+        price: +Math.random().toFixed(2),
       },
       {
         category: CategoryEnum.pizzaDoce30,
         description: 'Descricao',
         name: 'produto3',
-        price: +Math.random().toFixed(2)
+        price: +Math.random().toFixed(2),
       },
-    ]
+    ];
     customerId = (await CustomerSchema.create(customer)).id;
     productsId = (await ProductSchema.create(productList)).map(m => m.id);
     order = {
       customer: customerId,
       products: productsId,
-      price: +Math.random().toFixed(2)
-    }
+      price: +Math.random().toFixed(2),
+    };
   });
 
   it('Deve criar um pedido', async () => {
