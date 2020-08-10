@@ -10,6 +10,7 @@ import { Order } from '@interfaces/Order';
 import { Product } from '@interfaces/Product';
 import ProductSchema from '@schemas/ProductSchema';
 import { CategoryEnum } from '@utils/enums/CategoryEnum';
+import { OrderStatusEnum } from '@utils/enums/OrderStatusEnum';
 import ProductController from './ProductController';
 import app from '../app';
 
@@ -74,6 +75,7 @@ describe('Customer tests', () => {
       customer: customerId,
       products: productsId,
       price: +Math.random().toFixed(2),
+      status: OrderStatusEnum.production,
     };
   });
 
