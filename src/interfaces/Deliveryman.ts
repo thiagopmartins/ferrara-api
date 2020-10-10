@@ -1,15 +1,15 @@
 export interface Deliveryman {
   name?: string;
   phone?: string;
-  category6: {
+  category6?: {
     value: number;
     quantity: number;
   };
-  category10: {
+  category10?: {
     value: number;
     quantity: number;
   };
-  category: {
+  category?: {
     value: number;
     quantity: number;
   };

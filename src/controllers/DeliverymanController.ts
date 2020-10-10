@@ -36,10 +36,7 @@ class DeliverymanController {
         },
       });
     }
-    await DeliverymanSchema.create({
-      phone,
-      name,
-    });
+    await DeliverymanSchema.create({ name, phone });
 
     return res.json(await DeliverymanSchema.findOne({ phone }));
   }

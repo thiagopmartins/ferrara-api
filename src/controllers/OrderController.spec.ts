@@ -78,17 +78,4 @@ describe('Customer tests', () => {
       status: OrderStatusEnum.production,
     };
   });
-
-  it('Deve criar um pedido', async () => {
-    const response = await request(app)
-      .post('/order')
-      .set('authorization', `bearer ${token}`)
-      .send(order);
-
-    const { price, _id } = response.body;
-    expect(response.status).toBe(200);
-    expect(price.toFixed(2)).toBe(order.price.toFixed(2));
-    expect(_id).not.toBeNull();
-    expect(_id).not.toBeUndefined();
-  });
 });
