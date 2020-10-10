@@ -1,3 +1,7 @@
+/* eslint-disable no-plusplus */
+/* eslint-disable no-unused-expressions */
+/* eslint-disable no-param-reassign */
+/* eslint-disable no-restricted-globals */
 import { Response } from 'express';
 import 'moment/locale/pt-br';
 
@@ -5,6 +9,10 @@ import { RequestCustom } from '@interfaces/RequestCustom';
 import OrderSchema from '@schemas/OrderSchema';
 import DiscountSchema from '@schemas/DiscountSchema';
 import { OrderStatusEnum } from '@utils/enums/OrderStatusEnum';
+import DeliverymanSchema from '@schemas/DeliverymanSchema';
+import { Deliveryman } from '@interfaces/Deliveryman';
+
+type Nullable<T> = T | null;
 
 class OrderController {
   public async store(req: RequestCustom, res: Response): Promise<Response> {
@@ -41,22 +49,87 @@ class OrderController {
   }
 
   public async show(req: RequestCustom, res: Response): Promise<Response> {
-    const { status } = req.params;
+    const orders = await OrderSchema.find({});
+
+    return res.json(orders);
+  }
+
+  public async index(req: RequestCustom, res: Response): Promise<Response> {
+    // eslint-disable-next-line prefer-destructuring
+    const status: number = +req.params.status;
     const orders = await OrderSchema.find({
-      status: OrderStatusEnum.production,
+      status,
     });
 
     return res.json(orders);
   }
 
   public async update(req: RequestCustom, res: Response): Promise<Response> {
+    const status: number = +req.body.status;
+    let finishedAt: Nullable<Date> = null;
+
+    if (status === OrderStatusEnum.finished) {
+      finishedAt = new Date();
+
+      const deliveryman = await DeliverymanSchema.findOne({
+        _id: req.body.deliveryman._id,
+      });
+
+      if (deliveryman !== null) {
+        const { deliveryTax } = req.body.customer;
+
+        if (deliveryTax === 4) {
+          if (
+            deliveryman.category6 === undefined ||
+            deliveryman.category6 === null
+          ) {
+            deliveryman.category6 = {
+              quantity: 0,
+              value: 0,
+            };
+          }
+          deliveryman.category6.quantity++;
+          deliveryman.category6.value += 6;
+        } else if (deliveryTax === 6) {
+          if (
+            deliveryman.category10 === undefined ||
+            deliveryman.category10 === null
+          ) {
+            deliveryman.category10 = {
+              quantity: 0,
+              value: 0,
+            };
+          }
+          deliveryman.category10.quantity++;
+          deliveryman.category10.value += 10;
+        } else {
+          if (
+            deliveryman.category === undefined ||
+            deliveryman.category === null
+          ) {
+            deliveryman.category = {
+              quantity: 0,
+              value: 0,
+            };
+          }
+          deliveryman.category.quantity++;
+          deliveryman.category.value += deliveryTax;
+        }
+        await DeliverymanSchema.updateOne(
+          { _id: req.body.deliveryman._id },
+          deliveryman,
+        );
+      }
+    }
+
     const order = await OrderSchema.findOneAndUpdate(
       {
         _id: req.body._id,
       },
       {
-        status: OrderStatusEnum.sending,
-        finishedAt: new Date(),
+        status,
+        finishedAt,
+        deliveryman: req.body.deliveryman,
       },
     );
 

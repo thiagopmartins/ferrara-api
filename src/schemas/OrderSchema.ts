@@ -9,6 +9,7 @@ const OrderSchema = new Schema(
     customer: {},
     productsOfOrder: [{}],
     discount: { type: mongoose.Schema.Types.ObjectId, ref: 'Discount' },
+    deliveryman: { type: mongoose.Schema.Types.ObjectId, ref: 'Deliverymen' },
     price: {
       type: Number,
     },

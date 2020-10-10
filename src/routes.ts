@@ -7,6 +7,7 @@ import DiscountController from '@controllers/DiscountController';
 
 import Authentication from '@middlewares/Authentication';
 import OrderController from '@controllers/OrderController';
+import DeliverymanController from '@controllers/DeliverymanController';
 
 const routes = Router();
 
@@ -34,5 +35,12 @@ routes.put('/discount', Authentication, DiscountController.update);
 routes.post('/order', Authentication, OrderController.store);
 routes.get('/order', Authentication, OrderController.show);
 routes.put('/order', Authentication, OrderController.update);
+
+routes.post('/deliveryman', Authentication, DeliverymanController.store);
+routes.get('/deliveryman', Authentication, DeliverymanController.index);
+routes.get('/deliveryman/:id', Authentication, DeliverymanController.show);
+routes.delete('/deliveryman/:id', Authentication, DeliverymanController.delete);
+routes.put('/deliveryman', Authentication, DeliverymanController.update);
+routes.put('/deliveryman/reset', Authentication, DeliverymanController.reset);
 
 export default routes;

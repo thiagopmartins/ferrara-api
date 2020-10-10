@@ -3,7 +3,7 @@ import express from 'express';
 import mongoose from 'mongoose';
 import cors from 'cors';
 
-import 'module-alias/register';
+// import 'module-alias/register';
 
 import OrderSchema from '@schemas/OrderSchema';
 import routes from './routes';
